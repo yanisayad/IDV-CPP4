@@ -3,15 +3,15 @@
 //
 
 #include "EntityFactory.h"
-#include "CercleEntity.h"
+#include "SnakeEntity.h"
 
 AbstractEntity *EntityFactory::Create(const std::string &str) {
 
     AbstractEntity *entity = nullptr;
 
-    if (str == "CercleEntity")
+    if (str == "SnakeEntity")
     {
-        entity = new CercleEntity();
+        entity = new SnakeEntity();
     }
     return entity;
 }

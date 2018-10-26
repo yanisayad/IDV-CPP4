@@ -1,15 +1,24 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <unistd.h>
 
 #include "AbstractEntity.h"
-#include "CercleEntity.h"
+#include "SnakeEntity.h"
 #include "EntityFactory.h"
 #include "Scene.h"
 #include "TimeManager.h"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Nassim");
+    // Variables
+    sf::Event event;
+    Scene *scene;
+    unsigned int fps = 0;
+    float snakeSpeed = 10;
+    bool collision = false;
+    bool start = true;
+
+    sf::RenderWindow window(sf::VideoMode(1024, 768, 32), "Nassim");
 
     // frame limit 60 fps
     window.setFramerateLimit(60);
@@ -17,61 +26,79 @@ int main()
     sf::Font font;
     font.loadFromFile("GROBOLD.ttf");
 
-
-    sf::CircleShape square(80, 4);
-    square.setFillColor(sf::Color(100, 250, 50));
-    square.setPosition(window.getSize().x/2 - square.getGlobalBounds().width/2,
-            window.getSize().y/2 - square.getGlobalBounds().height/2);
-
-    AbstractEntity  *entity;
-    EntityFactory   *factory;
-    Scene           *scene;
-
-    factory =  new EntityFactory();
-    entity = factory->Create("CercleEntity");
-
-    entity->Draw();
-
     scene = new Scene();
-    unsigned int fps = 0;
 
-    sf::CircleShape new_cercle(35);
-    new_cercle.setFillColor(sf::Color(100, 250, 50));
-    new_cercle.setPosition(14,25);
+
+    // Snake
+    sf::RectangleShape snake(sf::Vector2f(50.0f,50.0f));
+    snake.setFillColor(sf::Color(100, 250, 50));
+    snake.setPosition(window.getSize().x/2 - snake.getGlobalBounds().width/2,
+                      window.getSize().y/2 - snake.getGlobalBounds().height/2);
 
     while(window.isOpen())
     {
-        int is_click = 0;
-        sf::Event event;
-        while(window.pollEvent(event))
+        while (start)
         {
-            if(event.type == sf::Event::Closed)
-                window.close();
-
-            if (event.mouseButton.button == sf::Mouse::Left)
+            while(window.pollEvent(event))
             {
-                is_click = 1;
-                std::cout << is_click << std::endl;
+                sf::Vector2f PosPerso = snake.getPosition();
+
+                if (event.type == sf::Event::Closed)
+                    window.close();
+
+                if (PosPerso.x < 1024 && PosPerso.x > 0 && PosPerso.y > 0 && PosPerso.y < 768)
+                {
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
+                        snake.move(0, -snakeSpeed);
+                    }
+
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+                        snake.move(0, snakeSpeed);
+                    }
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+                        snake.move(-snakeSpeed, 0);
+                    }
+
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+                        snake.move(snakeSpeed, 0);
+                    }
+                }
+                else
+                {
+                    start = false;
+                    collision = true;
+                    window.clear(sf::Color::Black);
+                    sf::Text endMessage("Game Over press 'Space' to play again",font,11);
+                    endMessage.setCharacterSize(50);
+                    endMessage.setPosition(window.getSize().x/2 - endMessage.getGlobalBounds().width/2,
+                                           window.getSize().y/2 - - snake.getGlobalBounds().height/2);
+
+                    window.draw(endMessage);
+                    window.display();
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
+                        start = true;
+                        std::cout << "Je suis ici" << std::endl;
+                    }
+
+                }
+            }
+
+            if (!collision)
+            {
+                // fps
+                scene->Update();
+                fps = TimeManager::GetInstance().GetElapsedTime();
+
+                sf::Text fps_text(std::to_string(fps),font,11);
+                fps_text.setCharacterSize(35);
+                fps_text.setPosition(1,1);
+
+                window.clear(sf::Color::Black);
+                window.draw(fps_text);
+                window.draw(snake);
+                window.display();
             }
         }
-
-        scene->Update();
-        fps = TimeManager::GetInstance().GetElapsedTime();
-
-
-        sf::Text text(std::to_string(fps),font,11);
-        text.setCharacterSize(35);
-        text.setPosition(1,1);
-
-        if (is_click == 1)
-        {
-            window.draw(new_cercle);
-        }
-
-        window.clear(sf::Color::Black);
-        window.draw(text);
-        window.draw(square);
-        window.display();
     }
 
     return (0);
