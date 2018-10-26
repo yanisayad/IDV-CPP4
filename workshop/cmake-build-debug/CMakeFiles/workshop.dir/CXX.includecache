@@ -8,9 +8,29 @@
 
 /Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
 
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SnakeEntity.cpp
-SnakeEntity.h
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SnakeEntity.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/EntityFactory.h
+iostream
+-
+AbstractEntity.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.h
+iostream
+-
+list
+-
+AbstractEntity.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.cpp
+Snake.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
+SFML/Graphics.hpp
+-
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
+iostream
+-
 SFML/Graphics.hpp
 -
 
@@ -19,6 +39,28 @@ AbstractEntity.h
 /Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
 SFML/Graphics.hpp
 -
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.h
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/main.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+unistd.h
+-
+AbstractEntity.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
+SnakeEntity.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SnakeEntity.h
+EntityFactory.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/EntityFactory.h
+Scene.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.h
+TimeManager.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.h
+Snake.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

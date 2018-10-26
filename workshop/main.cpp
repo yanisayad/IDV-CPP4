@@ -8,13 +8,15 @@
 #include "Scene.h"
 #include "TimeManager.h"
 
+#include "Snake.h"
+
 int main()
 {
     // Variables
     sf::Event event;
     Scene *scene;
     unsigned int fps = 0;
-    float snakeSpeed = 10;
+    float snakeSpeed = 15.5;
     bool collision = false;
     bool start = true;
 
@@ -30,18 +32,15 @@ int main()
 
 
     // Snake
-    sf::RectangleShape snake(sf::Vector2f(50.0f,50.0f));
-    snake.setFillColor(sf::Color(100, 250, 50));
-    snake.setPosition(window.getSize().x/2 - snake.getGlobalBounds().width/2,
-                      window.getSize().y/2 - snake.getGlobalBounds().height/2);
-
+    Snake snake;
+    snake.SetPosition(window);
     while(window.isOpen())
     {
         while (start)
         {
             while(window.pollEvent(event))
             {
-                sf::Vector2f PosPerso = snake.getPosition();
+                sf::Vector2f PosPerso = snake.GetPosition();
 
                 if (event.type == sf::Event::Closed)
                     window.close();
@@ -49,18 +48,22 @@ int main()
                 if (PosPerso.x < 1024 && PosPerso.x > 0 && PosPerso.y > 0 && PosPerso.y < 768)
                 {
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
-                        snake.move(0, -snakeSpeed);
+                        std::cout << "UP" << std::endl;
+                        snake.MoveSnake('u', snakeSpeed);
                     }
 
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-                        snake.move(0, snakeSpeed);
+                        std::cout << "DOWN" << std::endl;
+                        snake.MoveSnake('d', snakeSpeed);
                     }
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-                        snake.move(-snakeSpeed, 0);
+                        std::cout << "LEFT" << std::endl;
+                        snake.MoveSnake('l', snakeSpeed);
                     }
 
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                        snake.move(snakeSpeed, 0);
+                        std::cout << "RIGHT" << std::endl;
+                        snake.MoveSnake('r', snakeSpeed);
                     }
                 }
                 else
@@ -71,13 +74,12 @@ int main()
                     sf::Text endMessage("Game Over press 'Space' to play again",font,11);
                     endMessage.setCharacterSize(50);
                     endMessage.setPosition(window.getSize().x/2 - endMessage.getGlobalBounds().width/2,
-                                           window.getSize().y/2 - - snake.getGlobalBounds().height/2);
+                                           window.getSize().y/2 - - endMessage.getGlobalBounds().height/2);
 
                     window.draw(endMessage);
                     window.display();
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
                         start = true;
-                        std::cout << "Je suis ici" << std::endl;
                     }
 
                 }
@@ -95,7 +97,7 @@ int main()
 
                 window.clear(sf::Color::Black);
                 window.draw(fps_text);
-                window.draw(snake);
+                snake.DrawSnake(window);
                 window.display();
             }
         }

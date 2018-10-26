@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workshop.dir/SnakeEntity.cpp.o"
   "CMakeFiles/workshop.dir/Scene.cpp.o"
   "CMakeFiles/workshop.dir/TimeManager.cpp.o"
+  "CMakeFiles/workshop.dir/Snake.cpp.o"
   "workshop.pdb"
   "workshop"
 )

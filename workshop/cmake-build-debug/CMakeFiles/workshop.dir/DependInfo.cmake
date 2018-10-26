@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
   "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/EntityFactory.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EntityFactory.cpp.o"
   "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Scene.cpp.o"
+  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Snake.cpp.o"
   "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SnakeEntity.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/SnakeEntity.cpp.o"
   "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/TimeManager.cpp.o"
   "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/main.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/main.cpp.o"

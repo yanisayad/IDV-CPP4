@@ -204,6 +204,33 @@ Scene.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Scene.cpp.s
 .PHONY : Scene.cpp.s
 
+Snake.o: Snake.cpp.o
+
+.PHONY : Snake.o
+
+# target to build an object file
+Snake.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Snake.cpp.o
+.PHONY : Snake.cpp.o
+
+Snake.i: Snake.cpp.i
+
+.PHONY : Snake.i
+
+# target to preprocess a source file
+Snake.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Snake.cpp.i
+.PHONY : Snake.cpp.i
+
+Snake.s: Snake.cpp.s
+
+.PHONY : Snake.s
+
+# target to generate assembly for a file
+Snake.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Snake.cpp.s
+.PHONY : Snake.cpp.s
+
 SnakeEntity.o: SnakeEntity.cpp.o
 
 .PHONY : SnakeEntity.o
@@ -303,6 +330,9 @@ help:
 	@echo "... Scene.o"
 	@echo "... Scene.i"
 	@echo "... Scene.s"
+	@echo "... Snake.o"
+	@echo "... Snake.i"
+	@echo "... Snake.s"
 	@echo "... SnakeEntity.o"
 	@echo "... SnakeEntity.i"
 	@echo "... SnakeEntity.s"
