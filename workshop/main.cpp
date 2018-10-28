@@ -9,6 +9,7 @@
 #include "TimeManager.h"
 
 #include "Snake.h"
+#include "Apple.h"
 
 int main()
 {
@@ -19,6 +20,10 @@ int main()
     float snakeSpeed = 15.5;
     bool collision = false;
     bool start = true;
+    int appleX;
+    int appleY;
+    bool appleDrawPossible = true;
+    bool isAppleNeeded = true;
 
     sf::RenderWindow window(sf::VideoMode(1024, 768, 32), "Nassim");
 
@@ -34,39 +39,83 @@ int main()
     // Snake
     Snake snake;
     snake.SetPosition(window);
+
+    // Apple
+    Apple apple;
+
+
     while(window.isOpen())
     {
+
         while (start)
         {
+            // Boucle d'evenement SFML
             while(window.pollEvent(event))
             {
-                sf::Vector2f PosPerso = snake.GetPosition();
-
                 if (event.type == sf::Event::Closed)
                     window.close();
 
-                if (PosPerso.x < 1024 && PosPerso.x > 0 && PosPerso.y > 0 && PosPerso.y < 768)
+                // Position du Snake
+                sf::Vector2f snakePosition = snake.GetPosition();
+
+                // Check si on peut Draw une Apple
+                if(isAppleNeeded) {
+                    do {
+                        appleX = apple.GeneratePositionX();
+                        appleY = apple.GeneratePositionY();
+                        std::cout << "APPLE X " << appleX << std::endl;
+                        std::cout << "APPLE Y " << appleY << std::endl;
+                        if (snakePosition.x == appleX && snakePosition.y == appleY) {
+                            appleDrawPossible = false;
+                            break;
+                        } else {
+                            apple.SetPosition(appleX, appleY);
+                            appleDrawPossible = true;
+                        }
+
+
+                    } while (!appleDrawPossible);
+                    isAppleNeeded = false;
+                }
+                std::cout << "@Snake X " << snakePosition.x << std::endl;
+                std::cout << "@Snake y " << snakePosition.y << std::endl;
+                std::cout << "2eme APPLE X " << appleX << std::endl;
+                std::cout << "2eme APPLE Y " << appleY << std::endl;
+                // Si le Snake passe sur une Apple
+                if(snake.GetX() == appleX && snake.GetY() == appleY)
+                {
+                    std::cout << "SNAKE EATED AN APPLE" << std::endl;
+                    isAppleNeeded = true; // On redemande une nouvelle Apple
+                    // Le serpent grandit
+                }
+
+                // Condition pour check si le Snake sort de la window
+                if (snakePosition.x < 1024 && snakePosition.x > 0 && snakePosition.y > 0 && snakePosition.y < 768)
                 {
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
-                        std::cout << "UP" << std::endl;
+                        std::cout << " Snake X " << snakePosition.x << std::endl;
+                        std::cout << " Snake y " << snakePosition.y << std::endl;
                         snake.MoveSnake('u', snakeSpeed);
                     }
 
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-                        std::cout << "DOWN" << std::endl;
+                        std::cout << " Snake X " << snakePosition.x << std::endl;
+                        std::cout << " Snake y " << snakePosition.y << std::endl;
                         snake.MoveSnake('d', snakeSpeed);
                     }
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-                        std::cout << "LEFT" << std::endl;
+                        std::cout << " Snake X " << snakePosition.x << std::endl;
+                        std::cout << " Snake y " << snakePosition.y << std::endl;
                         snake.MoveSnake('l', snakeSpeed);
                     }
 
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                        std::cout << "RIGHT" << std::endl;
+                        std::cout << " Snake X " << snakePosition.x << std::endl;
+                        std::cout << " Snake y " << snakePosition.y << std::endl;
                         snake.MoveSnake('r', snakeSpeed);
                     }
                 }
-                else
+                else // Gestion de fin de partie
                 {
                     start = false;
                     collision = true;
@@ -84,7 +133,6 @@ int main()
 
                 }
             }
-
             if (!collision)
             {
                 // fps
@@ -97,7 +145,11 @@ int main()
 
                 window.clear(sf::Color::Black);
                 window.draw(fps_text);
-                snake.DrawSnake(window);
+                snake.DrawSnake(window); // On Draw le Snake dans la window
+
+                if (appleDrawPossible)
+                    apple.DrawApple(window); // On Draw l'Apple dans la window (si possible)
+
                 window.display();
             }
         }

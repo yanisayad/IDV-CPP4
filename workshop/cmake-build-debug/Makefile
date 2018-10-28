@@ -150,6 +150,33 @@ AbstractEntity.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/AbstractEntity.cpp.s
 .PHONY : AbstractEntity.cpp.s
 
+Apple.o: Apple.cpp.o
+
+.PHONY : Apple.o
+
+# target to build an object file
+Apple.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Apple.cpp.o
+.PHONY : Apple.cpp.o
+
+Apple.i: Apple.cpp.i
+
+.PHONY : Apple.i
+
+# target to preprocess a source file
+Apple.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Apple.cpp.i
+.PHONY : Apple.cpp.i
+
+Apple.s: Apple.cpp.s
+
+.PHONY : Apple.s
+
+# target to generate assembly for a file
+Apple.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Apple.cpp.s
+.PHONY : Apple.cpp.s
+
 EntityFactory.o: EntityFactory.cpp.o
 
 .PHONY : EntityFactory.o
@@ -324,6 +351,9 @@ help:
 	@echo "... AbstractEntity.o"
 	@echo "... AbstractEntity.i"
 	@echo "... AbstractEntity.s"
+	@echo "... Apple.o"
+	@echo "... Apple.i"
+	@echo "... Apple.s"
 	@echo "... EntityFactory.o"
 	@echo "... EntityFactory.i"
 	@echo "... EntityFactory.s"

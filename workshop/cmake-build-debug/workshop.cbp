@@ -88,6 +88,12 @@
 		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h">
 			<Option target="workshop"/>
 		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Apple.cpp">
+			<Option target="workshop"/>
+		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Apple.h">
+			<Option target="workshop"/>
+		</Unit>
 		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/EntityFactory.cpp">
 			<Option target="workshop"/>
 		</Unit>

@@ -34,5 +34,16 @@ sf::Vector2f Snake::GetPosition() {
 
 void Snake::SetPosition(sf::RenderWindow &window) {
     snake.setPosition(window.getSize().x/2 - snake.getGlobalBounds().width/2,
-                      window.getSize().y/2 - snake.getGlobalBounds().height/2);
+            window.getSize().y/2 - snake.getGlobalBounds().height/2);
 }
+
+float Snake::GetX() {
+    sf::Vector2f snakePos = this->GetPosition();
+    return snakePos.x;
+}
+
+float Snake::GetY() {
+    sf::Vector2f snakePos = this->GetPosition();
+    return snakePos.y;
+}
+

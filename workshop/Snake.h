@@ -13,7 +13,6 @@ public:
     Snake() {
         snake.setSize(sf::Vector2f(50.0f,50.0f));
         snake.setFillColor(sf::Color(100, 250, 50));
-
     };
 
     void DrawSnake(sf::RenderWindow &window);
@@ -23,6 +22,10 @@ public:
     void SetPosition(sf::RenderWindow &window);
 
     sf::Vector2f GetPosition();
+
+    float GetX();
+
+    float GetY();
 
     ~Snake();
 private:

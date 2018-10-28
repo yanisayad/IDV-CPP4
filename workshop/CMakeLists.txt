@@ -3,7 +3,7 @@ project(workshop)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp AbstractEntity.cpp AbstractEntity.h EntityFactory.cpp EntityFactory.h SnakeEntity.cpp SnakeEntity.h Scene.cpp Scene.h TimeManager.cpp TimeManager.h Snake.cpp Snake.h)
+set(SOURCE_FILES main.cpp AbstractEntity.cpp AbstractEntity.h EntityFactory.cpp EntityFactory.h SnakeEntity.cpp SnakeEntity.h Scene.cpp Scene.h TimeManager.cpp TimeManager.h Snake.cpp Snake.h Apple.cpp Apple.h)
 add_executable(workshop ${SOURCE_FILES})
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
