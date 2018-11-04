@@ -285,6 +285,33 @@ SnakeEntity.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/SnakeEntity.cpp.s
 .PHONY : SnakeEntity.cpp.s
 
+Square.o: Square.cpp.o
+
+.PHONY : Square.o
+
+# target to build an object file
+Square.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Square.cpp.o
+.PHONY : Square.cpp.o
+
+Square.i: Square.cpp.i
+
+.PHONY : Square.i
+
+# target to preprocess a source file
+Square.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Square.cpp.i
+.PHONY : Square.cpp.i
+
+Square.s: Square.cpp.s
+
+.PHONY : Square.s
+
+# target to generate assembly for a file
+Square.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Square.cpp.s
+.PHONY : Square.cpp.s
+
 TimeManager.o: TimeManager.cpp.o
 
 .PHONY : TimeManager.o
@@ -366,6 +393,9 @@ help:
 	@echo "... SnakeEntity.o"
 	@echo "... SnakeEntity.i"
 	@echo "... SnakeEntity.s"
+	@echo "... Square.o"
+	@echo "... Square.i"
+	@echo "... Square.s"
 	@echo "... TimeManager.o"
 	@echo "... TimeManager.i"
 	@echo "... TimeManager.s"

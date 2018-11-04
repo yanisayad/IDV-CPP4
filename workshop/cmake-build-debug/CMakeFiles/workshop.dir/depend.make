@@ -7,6 +7,7 @@ CMakeFiles/workshop.dir/AbstractEntity.cpp.o: ../AbstractEntity.h
 CMakeFiles/workshop.dir/Apple.cpp.o: ../Apple.cpp
 CMakeFiles/workshop.dir/Apple.cpp.o: ../Apple.h
 CMakeFiles/workshop.dir/Apple.cpp.o: ../Snake.h
+CMakeFiles/workshop.dir/Apple.cpp.o: ../Square.h
 CMakeFiles/workshop.dir/Apple.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/workshop.dir/Apple.cpp.o: /usr/local/include/SFML/Graphics.hpp
 CMakeFiles/workshop.dir/Apple.cpp.o: /usr/local/include/SFML/Graphics/BlendMode.hpp
@@ -162,6 +163,7 @@ CMakeFiles/workshop.dir/Scene.cpp.o: ../TimeManager.h
 
 CMakeFiles/workshop.dir/Snake.cpp.o: ../Snake.cpp
 CMakeFiles/workshop.dir/Snake.cpp.o: ../Snake.h
+CMakeFiles/workshop.dir/Snake.cpp.o: ../Square.h
 CMakeFiles/workshop.dir/Snake.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/workshop.dir/Snake.cpp.o: /usr/local/include/SFML/Graphics.hpp
 CMakeFiles/workshop.dir/Snake.cpp.o: /usr/local/include/SFML/Graphics/BlendMode.hpp
@@ -309,6 +311,9 @@ CMakeFiles/workshop.dir/SnakeEntity.cpp.o: /usr/local/include/SFML/Window/Window
 CMakeFiles/workshop.dir/SnakeEntity.cpp.o: /usr/local/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/workshop.dir/SnakeEntity.cpp.o: /usr/local/include/SFML/Window/WindowStyle.hpp
 
+CMakeFiles/workshop.dir/Square.cpp.o: ../Square.cpp
+CMakeFiles/workshop.dir/Square.cpp.o: ../Square.h
+
 CMakeFiles/workshop.dir/TimeManager.cpp.o: ../TimeManager.cpp
 CMakeFiles/workshop.dir/TimeManager.cpp.o: ../TimeManager.h
 
@@ -318,6 +323,7 @@ CMakeFiles/workshop.dir/main.cpp.o: ../EntityFactory.h
 CMakeFiles/workshop.dir/main.cpp.o: ../Scene.h
 CMakeFiles/workshop.dir/main.cpp.o: ../Snake.h
 CMakeFiles/workshop.dir/main.cpp.o: ../SnakeEntity.h
+CMakeFiles/workshop.dir/main.cpp.o: ../Square.h
 CMakeFiles/workshop.dir/main.cpp.o: ../TimeManager.h
 CMakeFiles/workshop.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workshop.dir/main.cpp.o: /usr/local/include/SFML/Config.hpp

@@ -6,7 +6,12 @@
 #define WORKSHOP_SNAKE_H
 
 #include <iostream>
+#include <list>
 #include <SFML/Graphics.hpp>
+
+#include "Square.h"
+
+class Square;
 
 class Snake {
 public:
@@ -22,6 +27,13 @@ public:
     void SetPosition(sf::RenderWindow &window);
 
     sf::Vector2f GetPosition();
+
+    bool CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeight,
+            int appleX, int appleY, int appleWidth, int appleHeight);
+
+//    std::list<Square> GetSquareList();
+
+//    void Grow();
 
     float GetX();
 

@@ -19,9 +19,8 @@ public:
 
     void SetPosition(int x, int y);
 
-    int GeneratePositionX();
+    int GeneratePosition();
 
-    int GeneratePositionY();
 
     sf::Vector2f GetPosition();
 
@@ -30,7 +29,6 @@ public:
 private:
     sf::RectangleShape apple;
 
-    float RandomFloat(float min, float max);
 };
 
 

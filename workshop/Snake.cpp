@@ -33,17 +33,31 @@ sf::Vector2f Snake::GetPosition() {
 }
 
 void Snake::SetPosition(sf::RenderWindow &window) {
-    snake.setPosition(window.getSize().x/2 - snake.getGlobalBounds().width/2,
-            window.getSize().y/2 - snake.getGlobalBounds().height/2);
+    snake.setPosition(50 * 10, 50 * 3);
 }
 
 float Snake::GetX() {
-    sf::Vector2f snakePos = this->GetPosition();
-    return snakePos.x;
+    return snake.getPosition().x;
 }
 
 float Snake::GetY() {
-    sf::Vector2f snakePos = this->GetPosition();
-    return snakePos.y;
+    return snake.getPosition().y;
 }
 
+bool
+Snake::CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
+                      int appleHeight) {
+    return (snakeX <= appleX + appleWidth &&
+        snakeX + appleWidth >= appleX &&
+        snakeY <= appleY + appleHeight &&
+        snakeY + appleHeight >= appleY);
+}
+
+//std::list<Square> Snake::GetSquareList() {
+//    return this->snake;
+//}
+
+//void Snake::Grow() {
+//    this->square.push_back(Square(square.back().GetX(), square.back().GetY()));
+//
+//}

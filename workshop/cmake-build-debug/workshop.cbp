@@ -118,6 +118,12 @@
 		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SnakeEntity.h">
 			<Option target="workshop"/>
 		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.cpp">
+			<Option target="workshop"/>
+		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.h">
+			<Option target="workshop"/>
+		</Unit>
 		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.cpp">
 			<Option target="workshop"/>
 		</Unit>
