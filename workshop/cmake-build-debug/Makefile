@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop
+CMAKE_SOURCE_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug
+CMAKE_BINARY_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ Apple.s: Apple.cpp.s
 Apple.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Apple.cpp.s
 .PHONY : Apple.cpp.s
+
+EndMenu.o: EndMenu.cpp.o
+
+.PHONY : EndMenu.o
+
+# target to build an object file
+EndMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EndMenu.cpp.o
+.PHONY : EndMenu.cpp.o
+
+EndMenu.i: EndMenu.cpp.i
+
+.PHONY : EndMenu.i
+
+# target to preprocess a source file
+EndMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EndMenu.cpp.i
+.PHONY : EndMenu.cpp.i
+
+EndMenu.s: EndMenu.cpp.s
+
+.PHONY : EndMenu.s
+
+# target to generate assembly for a file
+EndMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EndMenu.cpp.s
+.PHONY : EndMenu.cpp.s
 
 EntityFactory.o: EntityFactory.cpp.o
 
@@ -435,6 +462,9 @@ help:
 	@echo "... Apple.o"
 	@echo "... Apple.i"
 	@echo "... Apple.s"
+	@echo "... EndMenu.o"
+	@echo "... EndMenu.i"
+	@echo "... EndMenu.s"
 	@echo "... EntityFactory.o"
 	@echo "... EntityFactory.i"
 	@echo "... EntityFactory.s"

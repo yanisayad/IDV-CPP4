@@ -15,7 +15,7 @@ Game::~Game()
 {
 }
 
-void Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake snake)
+int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake snake, int nbParty)
 {
     int appleX;
     int appleY;
@@ -82,7 +82,6 @@ void Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, S
                 } else // Gestion de fin de partie
                 {
                     collision = true;
-
                     window.clear(sf::Color::Black);
                     sf::Text endMessage("Game Over", font, 11);
                     endMessage.setCharacterSize(50);
@@ -93,6 +92,10 @@ void Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, S
                                            2);
                     window.draw(endMessage);
                     window.display();
+
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
+                        start = false;
+                    }
                 }
             }
             if (!collision) {
@@ -116,5 +119,6 @@ void Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, S
                 window.display();
             }
         }
+        return nbParty+1;
     }
 }

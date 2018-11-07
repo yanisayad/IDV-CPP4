@@ -4,23 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Apple.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EntityFactory.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Game.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Menu.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Scene.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Scene.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Snake.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/SnakeEntity.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/SnakeEntity.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Square.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Square.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/TimeManager.cpp.o"
-  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/main.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/main.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/AbstractEntity.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/Apple.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Apple.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/EndMenu.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EndMenu.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/EntityFactory.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EntityFactory.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/Game.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Game.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/Menu.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Menu.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/Scene.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Scene.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/Snake.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Snake.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/SnakeEntity.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/SnakeEntity.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/Square.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Square.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/TimeManager.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/TimeManager.cpp.o"
+  "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/main.cpp" "/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
   )
 
 # Targets to which this target links.
