@@ -45,7 +45,7 @@ void Snake::ChooseDirection(char direction) {
 
 
 sf::Vector2f Snake::GetPosition() {
-    return snake.getPosition();
+    return mSnakes[0].getPosition();
 }
 
 void Snake::SetPosition(sf::RenderWindow &window) {
@@ -91,6 +91,15 @@ void Snake::AddCase() {
     }
 
     mSnakes.push_back(rect);
+}
+
+bool
+Snake::CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
+                      int appleHeight) {
+    return (snakeX <= appleX + appleWidth &&
+            snakeX + appleWidth >= appleX &&
+            snakeY <= appleY + appleHeight &&
+            snakeY + appleHeight >= appleY);
 }
 
 void Snake::CheckCollision(sf::RenderWindow &window)
