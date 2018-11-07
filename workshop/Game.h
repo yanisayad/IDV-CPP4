@@ -17,7 +17,7 @@ public:
 
     int loopGame(sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake snake, int nbParty);
 
-
+    //char last_touch;
 protected:
 
 };

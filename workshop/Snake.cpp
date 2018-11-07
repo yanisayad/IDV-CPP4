@@ -4,6 +4,7 @@
 
 #include "Snake.h"
 #include <SFML/Graphics.hpp>
+#include <unistd.h>
 
 
 Snake::~Snake() {
@@ -24,6 +25,7 @@ void Snake::ChooseDirection(char direction) {
             mSnakes[i].setPosition(mSnakes[i-1].getPosition().x, mSnakes[i-1].getPosition().y);
         }
     }
+
     switch (direction) {
         case 'u':
             mSnakes[0].move(0, -mSpeed);
@@ -41,6 +43,7 @@ void Snake::ChooseDirection(char direction) {
         default:
             break;
     }
+    //last_direction = direction;
 }
 
 
@@ -93,13 +96,17 @@ void Snake::AddCase() {
     mSnakes.push_back(rect);
 }
 
-bool
-Snake::CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
+bool Snake::CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
                       int appleHeight) {
-    return (snakeX <= appleX + appleWidth &&
+
+    int offset = 5;
+
+    return ((snakeX <= appleX + offset) && (snakeX >= appleX - offset)) && ((snakeY <= appleY + offset) && (snakeY >= appleY - offset));
+    /*return (snakeX <= appleX + appleWidth &&
             snakeX + appleWidth >= appleX &&
             snakeY <= appleY + appleHeight &&
             snakeY + appleHeight >= appleY);
+            */
 }
 
 void Snake::CheckCollision(sf::RenderWindow &window)
@@ -122,6 +129,7 @@ void Snake::CheckCollision(sf::RenderWindow &window)
     if (mSnakes[0].getPosition().x == mFood.getPosition().x // Food collision
         && mSnakes[0].getPosition().y == mFood.getPosition().y)
     {
+        usleep(10);
         AddCase();
     }
 }
