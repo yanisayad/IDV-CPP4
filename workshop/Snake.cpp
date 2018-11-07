@@ -13,19 +13,21 @@ Snake::~Snake() {
 void Snake::DrawSnake(sf::RenderWindow &window) {
     for (unsigned int i = 0; i < mSnakes.size(); i++)
         window.draw(mSnakes[i]);
+
 }
 
-void Snake::MoveSnake(char direction) {
+void Snake::ChooseDirection(char direction) {
     if (mSnakes.size() > 1)
     {
         for (unsigned int i = mSnakes.size() - 1; i > 0; i--)
         {
-            mSnakes[i].setPosition(sf::Vector2f(mSnakes[i-1].getPosition().x, mSnakes[i-1].getPosition().y));
+            mSnakes[i].setPosition(mSnakes[i-1].getPosition().x, mSnakes[i-1].getPosition().y);
         }
     }
     switch (direction) {
         case 'u':
             mSnakes[0].move(0, -mSpeed);
+            std::cout << mSpeed << std::endl;
             break;
         case 'd':
             mSnakes[0].move(0, mSpeed);
@@ -40,6 +42,7 @@ void Snake::MoveSnake(char direction) {
             break;
     }
 }
+
 
 sf::Vector2f Snake::GetPosition() {
     return snake.getPosition();
@@ -90,48 +93,6 @@ void Snake::AddCase() {
     mSnakes.push_back(rect);
 }
 
-void Snake::Move(sf::RenderWindow &window) // Move the snake every 250 ms and check collision
-{
-    if (mCurrentTime < mTimeToUpdate)
-    {
-        mCurrentTime += mClock.restart().asMilliseconds();
-    }
-    else
-    {
-        mCurrentTime = 0.0f;
-
-        if (mSnakes.size() > 1)
-        {
-            for (unsigned int i = mSnakes.size() - 1; i > 0; i--)
-            {
-                mSnakes[i].setPosition(sf::Vector2f(mSnakes[i-1].getPosition().x, mSnakes[i-1].getPosition().y));
-            }
-        }
-
-        if (mLeft)
-        {
-            mSnakes[0].move(-mSpeed, 0);
-        }
-
-        if (mRight)
-        {
-            mSnakes[0].move(mSpeed, 0);
-        }
-
-        if (mUp)
-        {
-            mSnakes[0].move(0, -mSpeed);
-        }
-
-        if (mDown)
-        {
-            mSnakes[0].move(0, mSpeed);
-        }
-
-        CheckCollision(window);
-    }
-}
-
 void Snake::CheckCollision(sf::RenderWindow &window)
 {
     for (unsigned int i = 2; i < mSnakes.size(); i++) // Snake's boxes
@@ -156,65 +117,4 @@ void Snake::CheckCollision(sf::RenderWindow &window)
     }
 }
 
-void Snake::Update(sf::Event &event) // Check key input
-{
-    if (event.type == sf::Event::KeyPressed)
-    {
-        if (event.key.code == sf::Keyboard::Left)
-        {
-            if(mSnakes[0].getPosition().x - mSnakes[0].getSize().x != mSnakes[1].getPosition().x)
-            {
-                if(!mLeft && !mRight)
-                {
-                    mLeft = true;
-                    mRight = false;
-                    mUp = false;
-                    mDown = false;
-                }
-            }
-        }
-
-        if (event.key.code == sf::Keyboard::Right)
-        {
-            if(mSnakes[0].getPosition().x + mSnakes[0].getSize().x != mSnakes[1].getPosition().x)
-            {
-                if(!mRight && !mLeft)
-                {
-                    mLeft = false;
-                    mRight = true;
-                    mUp = false;
-                    mDown = false;
-                }
-            }
-        }
-
-        if (event.key.code == sf::Keyboard::Up)
-        {
-            if(mSnakes[0].getPosition().y - mSnakes[0].getSize().x != mSnakes[1].getPosition().y)
-            {
-                if(!mUp && !mDown)
-                {
-                    mLeft = false;
-                    mRight = false;
-                    mUp = true;
-                    mDown = false;
-                }
-            }
-        }
-
-        if (event.key.code == sf::Keyboard::Down)
-        {
-            if(mSnakes[0].getPosition().y + mSnakes[0].getSize().x != mSnakes[1].getPosition().y)
-            {
-                if(!mUp && !mDown)
-                {
-                    mLeft = false;
-                    mRight = false;
-                    mUp = false;
-                    mDown = true;
-                }
-            }
-        }
-    }
-}
 

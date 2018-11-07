@@ -23,6 +23,8 @@ public:
     void Update(sf::Event &event);
     void DrawSnake(sf::RenderWindow &window);
 
+    void ChooseDirection(char direction);
+
     void MoveSnake(char direction);
 
     void SetPosition(sf::RenderWindow &window);
@@ -46,7 +48,7 @@ private:
     sf::CircleShape mFood;
     int mTimeToUpdate;
     int mSize;
-    int mSpeed;
+    int mSpeed = 50;
     bool mLeft, mRight, mUp, mDown;
     float mCurrentTime;
     std::vector<sf::RectangleShape> mSnakes;

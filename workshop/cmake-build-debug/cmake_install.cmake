@@ -1,4 +1,4 @@
-# Install script for directory: /Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop
+# Install script for directory: /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

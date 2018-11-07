@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Apple.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Apple.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/EntityFactory.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EntityFactory.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Game.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Game.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Menu.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Menu.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Scene.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Snake.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SnakeEntity.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/SnakeEntity.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Square.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/TimeManager.cpp.o"
-  "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/main.cpp" "/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/main.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Apple.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EntityFactory.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Game.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Menu.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Scene.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Scene.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Snake.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/SnakeEntity.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/SnakeEntity.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Square.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Square.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/TimeManager.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/main.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

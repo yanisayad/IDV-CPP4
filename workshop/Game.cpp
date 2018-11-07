@@ -30,16 +30,16 @@ void Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, S
     while (window.isOpen()) {
         while (window.pollEvent(event)) {
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
-               snake.MoveSnake('u');
+               snake.ChooseDirection('u');
             }
             else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-                snake.MoveSnake('d');
+                snake.ChooseDirection('d');
             }
             else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-                snake.MoveSnake('l');
+                snake.ChooseDirection('l');
             }
             else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                snake.MoveSnake('r');
+                snake.ChooseDirection('r');
             }
         }
         window.clear(sf::Color::Black);
