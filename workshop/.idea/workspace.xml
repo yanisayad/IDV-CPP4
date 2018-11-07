@@ -12,295 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48af5f2e-8e12-4489-9000-16db7aef831d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractEntity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractEntity.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractEntity.h" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractEntity.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Apple.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple.h" beforeDir="false" afterPath="$PROJECT_DIR$/Apple.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GROBOLD.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Scene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/Scene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Snake.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snake.h" beforeDir="false" afterPath="$PROJECT_DIR$/Snake.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeEntity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeEntity.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeEntity.h" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeEntity.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Square.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Square.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/Square.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimeManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TimeManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimeManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/TimeManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cercle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workshop.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/workshop" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workshop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workshop.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workshop.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake_modules/FindSFML.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake_modules/FindSFML.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/cdjpeg.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/cdjpeg.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/cjpeg.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/cjpeg.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/djpeg.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/djpeg.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jaricom.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jaricom.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcapimin.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcapimin.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcapistd.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcapistd.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcarith.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcarith.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jccoefct.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jccoefct.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jccolor.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jccolor.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcdctmgr.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcdctmgr.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jchuff.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jchuff.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcinit.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcinit.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcmainct.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcmainct.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcmarker.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcmarker.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcmaster.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcmaster.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcomapi.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcomapi.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcparam.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcparam.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcprepct.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcprepct.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jcsample.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jcsample.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jctrans.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jctrans.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdapimin.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdapimin.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdapistd.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdapistd.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdarith.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdarith.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdatadst.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdatadst.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdatasrc.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdatasrc.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdcoefct.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdcoefct.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdcolor.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdcolor.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jddctmgr.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jddctmgr.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdhuff.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdhuff.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdinput.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdinput.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdmainct.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdmainct.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdmarker.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdmarker.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdmaster.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdmaster.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdmerge.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdmerge.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdpostct.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdpostct.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdsample.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdsample.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jdtrans.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jdtrans.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jerror.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jerror.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jfdctflt.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jfdctflt.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jfdctfst.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jfdctfst.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jfdctint.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jfdctint.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jidctflt.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jidctflt.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jidctfst.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jidctfst.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jidctint.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jidctint.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jmemmgr.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jmemmgr.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jmemnobs.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jmemnobs.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jpegtran.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jpegtran.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jquant1.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jquant1.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jquant2.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jquant2.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/jutils.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/jutils.Plo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdbmp.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdbmp.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdcolmap.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdcolmap.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdgif.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdgif.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdjpgcom.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdjpgcom.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdppm.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdppm.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdrle.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdrle.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdswitch.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdswitch.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/rdtarga.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/rdtarga.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/transupp.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/transupp.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/wrbmp.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/wrbmp.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/wrgif.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/wrgif.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/wrjpgcom.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/wrjpgcom.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/wrppm.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/wrppm.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/wrrle.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/wrrle.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/.deps/wrtarga.Po" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/.deps/wrtarga.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/Makefile.am" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/Makefile.in" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/Makefile.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/README" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/aclocal.m4" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/aclocal.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/ansi2knr.1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/ansi2knr.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/ansi2knr.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/ansi2knr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/cderror.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/cderror.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/cdjpeg.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/cdjpeg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/cdjpeg.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/cdjpeg.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/change.log" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/change.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/cjpeg.1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/cjpeg.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/cjpeg.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/cjpeg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/ckconfig.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/ckconfig.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/coderules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/coderules.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/config.log" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/config.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/configure.ac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/djpeg.1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/djpeg.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/djpeg.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/djpeg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/example.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/example.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/filelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/filelist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/install.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/install.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jaricom.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jaricom.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcapimin.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcapimin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcapistd.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcapistd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcarith.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcarith.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jccoefct.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jccoefct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jccolor.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jccolor.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcdctmgr.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcdctmgr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jchuff.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jchuff.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcinit.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcinit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcmainct.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcmainct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcmarker.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcmarker.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcmaster.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcmaster.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcomapi.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcomapi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.bcc" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.bcc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.dj" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.dj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.mac" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.mac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.manx" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.manx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.mc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.mc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.sas" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.sas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.st" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.st" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.vc" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.vc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.vms" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.vms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jconfig.wat" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jconfig.wat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcparam.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcparam.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcprepct.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcprepct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jcsample.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jcsample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jctrans.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jctrans.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdapimin.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdapimin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdapistd.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdapistd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdarith.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdarith.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdatadst.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdatadst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdatasrc.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdatasrc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdcoefct.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdcoefct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdcolor.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdcolor.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdct.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdct.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jddctmgr.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jddctmgr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdhuff.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdhuff.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdinput.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdinput.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdmainct.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdmainct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdmarker.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdmarker.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdmaster.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdmaster.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdmerge.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdmerge.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdpostct.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdpostct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdsample.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdsample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jdtrans.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jdtrans.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jerror.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jerror.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jerror.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jerror.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jfdctflt.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jfdctflt.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jfdctfst.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jfdctfst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jfdctint.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jfdctint.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jidctflt.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jidctflt.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jidctfst.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jidctfst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jidctint.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jidctint.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jinclude.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jinclude.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemansi.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemansi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemdos.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemdos.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemdosa.asm" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemdosa.asm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemmac.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemmac.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemmgr.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemmgr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemname.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemname.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemnobs.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemnobs.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmemsys.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmemsys.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jmorecfg.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jmorecfg.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jpegint.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jpegint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jpeglib.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jpeglib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jpegtran.1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jpegtran.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jpegtran.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jpegtran.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jquant1.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jquant1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jquant2.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jquant2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jutils.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jutils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/jversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/jversion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/libjpeg.map" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/libjpeg.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/libjpeg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/libjpeg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/ltmain.sh" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/ltmain.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makcjpeg.st" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makcjpeg.st" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makdjpeg.st" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makdjpeg.st" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makeadsw.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makeadsw.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makeasln.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makeasln.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makecdep.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makecdep.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makecdsp.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makecdsp.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makecfil.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makecfil.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makecmak.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makecmak.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makecvcx.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makecvcx.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makeddep.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makeddep.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makeddsp.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makeddsp.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makedfil.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makedfil.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makedmak.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makedmak.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makedvcx.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makedvcx.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.ansi" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.ansi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.bcc" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.bcc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.dj" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.dj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.manx" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.manx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.mc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.mc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.mms" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.mms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.sas" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.sas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.unix" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.unix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.vc" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.vc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.vms" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.vms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makefile.wat" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makefile.wat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejdep.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejdep.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejdsp.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejdsp.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejdsw.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejdsw.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejfil.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejfil.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejmak.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejmak.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejsln.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejsln.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makejvcx.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makejvcx.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makeproj.mac" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makeproj.mac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makerdep.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makerdep.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makerdsp.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makerdsp.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makerfil.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makerfil.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makermak.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makermak.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makervcx.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makervcx.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/maketdep.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/maketdep.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/maketdsp.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/maketdsp.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/maketfil.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/maketfil.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/maketmak.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/maketmak.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/maketvcx.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/maketvcx.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makewdep.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makewdep.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makewdsp.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makewdsp.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makewfil.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makewfil.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makewmak.vc6" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makewmak.vc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makewvcx.v10" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makewvcx.v10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makljpeg.st" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makljpeg.st" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/maktjpeg.st" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/maktjpeg.st" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/makvms.opt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/makvms.opt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdbmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdbmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdcolmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdcolmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdgif.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdgif.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdjpgcom.1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdjpgcom.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdjpgcom.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdjpgcom.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdppm.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdppm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdrle.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdrle.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdswitch.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdswitch.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/rdtarga.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/rdtarga.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/stamp-h1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/stamp-h1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/structure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/structure.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/testimg.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/testimg.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/testimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/testimg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/testimg.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/testimg.ppm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/testimgp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/testimgp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/testorig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/testorig.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/testprog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/testprog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/transupp.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/transupp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/transupp.h" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/transupp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/usage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/usage.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wizard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wizard.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrbmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrbmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrgif.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrgif.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrjpgcom.1" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrjpgcom.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrjpgcom.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrjpgcom.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrppm.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrppm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrrle.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrrle.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpeg-8d/wrtarga.c" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg-8d/wrtarga.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpegsrc.v8d.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake_sprite2.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -359,28 +77,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1311" />
-          <entry key="h" value="93" />
+          <entry key="cpp" value="1475" />
+          <entry key="h" value="107" />
           <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1404" />
+          <entry key="ObjectiveC" value="1582" />
           <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="9" />
-          <entry key="h" value="8" />
+          <entry key="cpp" value="10" />
+          <entry key="h" value="9" />
           <entry key="png" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="ObjectiveC" value="17" />
+          <entry key="ObjectiveC" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -390,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="401">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -399,11 +117,35 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Snake.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="297">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#52#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Snake.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <element signature="e#103#122#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -414,6 +156,9 @@
     <findStrings>
       <find>dynamic re</find>
       <find>cout</find>
+      <find>setPosition</find>
+      <find>moveSnake</find>
+      <find>MoveSnake</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -431,13 +176,15 @@
         <option value="$PROJECT_DIR$/TimeManager.cpp" />
         <option value="$PROJECT_DIR$/Scene.cpp" />
         <option value="$PROJECT_DIR$/Scene.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/AbstractEntity.h" />
         <option value="$PROJECT_DIR$/AbstractEntity.cpp" />
         <option value="$PROJECT_DIR$/EntityFactory.cpp" />
         <option value="$PROJECT_DIR$/SnakeEntity.h" />
         <option value="$PROJECT_DIR$/SnakeEntity.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Snake.h" />
         <option value="$PROJECT_DIR$/Snake.cpp" />
+        <option value="$PROJECT_DIR$/Game.cpp" />
       </list>
     </option>
   </component>
@@ -518,7 +265,7 @@
       <workItem from="1538137410874" duration="9806000" />
       <workItem from="1540480130614" duration="110000" />
       <workItem from="1540480270283" duration="9755000" />
-      <workItem from="1541603518417" duration="235000" />
+      <workItem from="1541603518417" duration="4478000" />
     </task>
     <task id="LOCAL-00001" summary="feat(square): adding square and fps to sfml screen">
       <created>1540480330058</created>
@@ -531,7 +278,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19906000" />
+    <option name="totallyTimeSpent" value="24149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -684,18 +431,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="401">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Snake.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="e#103#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Snake.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="297">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#52#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.cpp
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp
 Snake.h
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.h
 SFML/Graphics.hpp
 -
 
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.h
 iostream
 -
-list
+vector
+-
+cstdlib
+-
+ctime
 -
 SFML/Graphics.hpp
 -
 Square.h
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Square.h
 
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Square.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h
