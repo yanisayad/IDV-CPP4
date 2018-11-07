@@ -19,4 +19,4 @@ void SnakeEntity::Update() {
 }
 
 void SnakeEntity::Draw() {
-}
+}   

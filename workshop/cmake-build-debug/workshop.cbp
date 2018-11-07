@@ -100,6 +100,18 @@
 		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/EntityFactory.h">
 			<Option target="workshop"/>
 		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Game.cpp">
+			<Option target="workshop"/>
+		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Game.h">
+			<Option target="workshop"/>
+		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Menu.cpp">
+			<Option target="workshop"/>
+		</Unit>
+		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Menu.h">
+			<Option target="workshop"/>
+		</Unit>
 		<Unit filename="/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.cpp">
 			<Option target="workshop"/>
 		</Unit>

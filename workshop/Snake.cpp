@@ -14,17 +14,21 @@ void Snake::DrawSnake(sf::RenderWindow &window) {
 }
 
 void Snake::MoveSnake(char direction, float moveSpeed) {
-    if (direction == 'u') {
-        snake.move(0, -moveSpeed);
-    }
-    else if (direction == 'd') {
-        snake.move(0, moveSpeed);
-    }
-    else if (direction == 'l') {
-        snake.move(-moveSpeed, 0);
-    }
-    else if (direction == 'r') {
-        snake.move(moveSpeed, 0);
+    switch (direction) {
+        case 'u':
+            snake.move(0, -moveSpeed);
+            break;
+        case 'd':
+            snake.move(0, moveSpeed);
+            break;
+        case 'l':
+            snake.move(-moveSpeed, 0);
+            break;
+        case 'r':
+            snake.move(moveSpeed, 0);
+            break;
+        default:
+            break;
     }
 }
 
@@ -52,12 +56,3 @@ Snake::CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeigh
         snakeY <= appleY + appleHeight &&
         snakeY + appleHeight >= appleY);
 }
-
-//std::list<Square> Snake::GetSquareList() {
-//    return this->snake;
-//}
-
-//void Snake::Grow() {
-//    this->square.push_back(Square(square.back().GetX(), square.back().GetY()));
-//
-//}

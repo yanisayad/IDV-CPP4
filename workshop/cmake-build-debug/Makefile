@@ -204,6 +204,60 @@ EntityFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EntityFactory.cpp.s
 .PHONY : EntityFactory.cpp.s
 
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 Scene.o: Scene.cpp.o
 
 .PHONY : Scene.o
@@ -384,6 +438,12 @@ help:
 	@echo "... EntityFactory.o"
 	@echo "... EntityFactory.i"
 	@echo "... EntityFactory.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
 	@echo "... Scene.o"
 	@echo "... Scene.i"
 	@echo "... Scene.s"
