@@ -6,16 +6,52 @@
 
 #IncludeRegexTransform: 
 
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.cpp
-Snake.h
-/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Apple.h
 SFML/Graphics.hpp
 -
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Game.cpp
+Game.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Game.h
+Apple.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Apple.h
+TimeManager.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.h
+SFML/Graphics.hpp
+-
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Game.h
+MacTypes.h
+-
+Menu.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Menu.h
+Snake.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
+Scene.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.h
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Menu.h
+SFML/Graphics.hpp
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/SFML/Graphics.hpp
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Scene.h
+iostream
+-
+list
+-
+AbstractEntity.h
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/AbstractEntity.h
 
 /Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Snake.h
 iostream
 -
-list
+vector
+-
+cstdlib
+-
+ctime
 -
 SFML/Graphics.hpp
 -
@@ -23,6 +59,8 @@ Square.h
 /Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.h
 
 /Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/Square.h
+
+/Users/n.elhormi/Desktop/etna/IDV-CPP4/IDV-CPP4/workshop/TimeManager.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

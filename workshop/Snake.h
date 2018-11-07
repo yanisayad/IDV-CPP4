@@ -6,7 +6,9 @@
 #define WORKSHOP_SNAKE_H
 
 #include <iostream>
-#include <list>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
 #include <SFML/Graphics.hpp>
 
 #include "Square.h"
@@ -15,25 +17,22 @@ class Square;
 
 class Snake {
 public:
-    Snake() {
-        snake.setSize(sf::Vector2f(50.0f,50.0f));
-        snake.setFillColor(sf::Color(100, 250, 50));
-    };
+    Snake(sf::RenderWindow &window, int sSize, int sSpeed);
 
+    void Move(sf::RenderWindow &window);
+    void Update(sf::Event &event);
     void DrawSnake(sf::RenderWindow &window);
 
-    void MoveSnake(char direction, float moveSpeed);
+    void MoveSnake(char direction);
 
     void SetPosition(sf::RenderWindow &window);
 
     sf::Vector2f GetPosition();
 
-    bool CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeight,
-            int appleX, int appleY, int appleWidth, int appleHeight);
+//    bool CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeight,
+//            int appleX, int appleY, int appleWidth, int appleHeight);
 
-//    std::list<Square> GetSquareList();
 
-//    void Grow();
 
     float GetX();
 
@@ -42,6 +41,18 @@ public:
     ~Snake();
 private:
     sf::RectangleShape snake;
+
+    sf::Clock mClock;
+    sf::CircleShape mFood;
+    int mTimeToUpdate;
+    int mSize;
+    int mSpeed;
+    bool mLeft, mRight, mUp, mDown;
+    float mCurrentTime;
+    std::vector<sf::RectangleShape> mSnakes;
+
+    void AddCase();
+    void CheckCollision(sf::RenderWindow &window);
 
 };
 
