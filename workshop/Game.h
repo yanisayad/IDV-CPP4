@@ -8,7 +8,6 @@
 
 #include "Menu.h"
 #include "Snake.h"
-#include "Scene.h"
 
 class Game {
 public:
@@ -16,10 +15,6 @@ public:
     ~Game();
 
     int loopGame(sf::RenderWindow &window, sf::Event event, sf::Font font, Snake snake, int nbParty);
-
-    //char last_touch;
-protected:
-
 };
 
 

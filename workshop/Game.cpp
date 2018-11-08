@@ -38,6 +38,7 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
 
     factory = new EntityFactory();
     TimeManager::GetInstance().Start();
+
     while (window.isOpen()) {
         apple = factory->Create("Apple");
         while (start) {
@@ -55,7 +56,6 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                     down = false;
 
                     last_direction = "up";
-
                 } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && last_direction != "up") {
                     right = false;
                     left = false;
@@ -63,7 +63,6 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                     down = true;
 
                     last_direction = "down";
-
                 } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) && last_direction != "right") {
                     right = false;
                     left = true;
@@ -71,7 +70,6 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                     down = false;
 
                     last_direction = "left";
-
                 } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) && last_direction != "left") {
                     right = true;
                     left = false;
@@ -81,10 +79,10 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                     last_direction = "right";
                 }
             }
-            // Position de la tete Snake
+            // Position de la tête Snake
             sf::Vector2f snakePosition = snake.mSnakes[0].getPosition();
 
-            // Check si on peut Draw une Apple
+            // Si c'est vrai, on affiche une pomme
             if (isAppleNeeded) {
                 appleX = apple->GeneratePosition();
                 appleY = apple->GeneratePosition();
@@ -99,11 +97,10 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                 isAppleNeeded = false;
             }
 
+            // On itère sur chaque element du snake
             for (unsigned int i = snake.mSnakes.size() - 1; i > 0; i--) {
-                if (snake.CollisionScreen(snake.mSnakes[0].getPosition().x, snake.mSnakes[0].getPosition().y, 50,
-                                          50,
-                                          snake.mSnakes[i].getPosition().x, snake.mSnakes[i].getPosition().y, 50,
-                                          50)) {
+                if (snake.CollisionScreen(snake.mSnakes[0].getPosition().x, snake.mSnakes[0].getPosition().y,
+                                          snake.mSnakes[i].getPosition().x, snake.mSnakes[i].getPosition().y)) {
                     body_collision = true;
                 }
             }
@@ -115,11 +112,9 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                 window.clear(sf::Color::Black);
                 sf::Text endMessage("Game Over", font, 11);
                 endMessage.setCharacterSize(50);
-                endMessage.setPosition(window.getSize().x / 2 -
-                                       endMessage.getGlobalBounds().width / 2,
-                                       window.getSize().y / 2 -
-                                       -endMessage.getGlobalBounds().height /
-                                       2);
+                endMessage.setPosition(
+                        window.getSize().x / 2 - endMessage.getGlobalBounds().width / 2,
+                        window.getSize().y / 2 - -endMessage.getGlobalBounds().height / 2);
                 window.draw(endMessage);
                 window.display();
 
@@ -129,13 +124,16 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             }
 
             // Si le Snake passe sur une Apple
-            if (snake.CollisionScreen(snakePosition.x, snakePosition.y, 50, 50, apple->GetPosition().x, apple->GetPosition().y, 50, 50))
+            if (snake.CollisionScreen(snakePosition.x, snakePosition.y, apple->GetPosition().x, apple->GetPosition().y))
             {
-                isAppleNeeded = true; // On redemande une nouvelle Apple
-                snake.AddCase();
+                // On redemande une nouvelle Apple, en passant a true la variable si dessous
+                isAppleNeeded = true;
+                //On ajoute un element a notre snake
+                snake.AddElementToSnake();
             }
 
-            if (compteur == 5) {
+            // on gère la vitesse du snake ici
+            if (compteur == 6) {
                 if (up) {
                     snake.ChooseDirection('u');
                 } else if (down) {

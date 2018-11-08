@@ -6,7 +6,6 @@
 
 #include "AbstractEntity.h"
 #include "EntityFactory.h"
-#include "Scene.h"
 #include "TimeManager.h"
 
 #include "Snake.h"
@@ -17,18 +16,22 @@
 
 int main() {
     srand(time(0));
+
     // Variables
     sf::Event event;
     Game *game;
-    unsigned int fps = 0;
-    float snakeSpeed = 50;
-    bool collision = false;
-    bool start = true;
+
+    unsigned int fps       = 0;
+    float snakeSpeed       = 50;
+    bool collision         = false;
+    bool start             = true;
+    bool appleDrawPossible = true;
+    bool isAppleNeeded     = true;
+    int nbParty            = 0;
     int appleX;
     int appleY;
-    bool appleDrawPossible = true;
-    bool isAppleNeeded = true;
-    int nbParty = 0;
+
+
 
     sf::RenderWindow window(sf::VideoMode((50 * 15), (50 * 15)), "LittleBigSnake");
 
@@ -74,12 +77,18 @@ int main() {
                                         case 2:
                                             window.close();
                                             break;
+                                        default:
+                                            break;
                                     }
+                                    break;
+                                default:
                                     break;
                             }
                             break;
                         case sf::Event::Closed:
                             window.close();
+                            break;
+                        default:
                             break;
                     }
             }
@@ -87,7 +96,7 @@ int main() {
                 window.clear();
                 endmenu.draw(window);
                 window.display();
-                while (window.pollEvent(event))
+                while (window.pollEvent(event)) {
                     switch (event.type) {
                         case sf::Event::KeyReleased:
                             switch (event.key.code) {
@@ -101,20 +110,26 @@ int main() {
                                     switch (endmenu.GetPressedItem()) {
                                         case 0:
                                             // BOUCLE DE JEU !!
-                                            std::cout << "Replay" << std::endl;
                                             nbParty = game->loopGame(window, event, font, snake, nbParty);
                                             break;
                                         case 1:
                                             window.close();
                                             break;
+                                        default:
+                                            break;
                                     }
+                                    break;
+                                default:
                                     break;
                             }
                             break;
                         case sf::Event::Closed:
                             window.close();
                             break;
+                        default:
+                            break;
                     }
+                }
             }
         }
     }
