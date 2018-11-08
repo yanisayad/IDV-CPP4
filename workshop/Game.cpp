@@ -53,19 +53,26 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                     left = false;
                     up = true;
                     down = false;
+
+                    last_direction = "up";
+
                 } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && last_direction != "up") {
                     right = false;
                     left = false;
                     up = false;
                     down = true;
+
+                    last_direction = "down";
+
                 } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) && last_direction != "right") {
-                    //snake.ChooseDirection('l');
                     right = false;
                     left = true;
                     up = false;
                     down = false;
+
+                    last_direction = "left";
+
                 } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) && last_direction != "left") {
-                    //snake.ChooseDirection('r');
                     right = true;
                     left = false;
                     up = false;
@@ -93,16 +100,16 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             }
 
             for (unsigned int i = snake.mSnakes.size() - 1; i > 0; i--) {
-                if (snake.CollisionScreen(snake.mSnakes[0].getPosition().x, snake.mSnakes[0].getPosition().y, 45,
-                                          45,
-                                          snake.mSnakes[i].getPosition().x, snake.mSnakes[i].getPosition().y, 49,
-                                          49)) {
+                if (snake.CollisionScreen(snake.mSnakes[0].getPosition().x, snake.mSnakes[0].getPosition().y, 50,
+                                          50,
+                                          snake.mSnakes[i].getPosition().x, snake.mSnakes[i].getPosition().y, 50,
+                                          50)) {
                     body_collision = true;
                 }
             }
 
             if (snakePosition.x < (50 * 15) && snakePosition.x > -1 &&
-                snakePosition.y > -1 && snakePosition.y < (50 * 15) && !body_collision) {
+                snakePosition.y > - 1 && snakePosition.y < (50 * 15) && !body_collision) {
             } else {
                 collision = true;
                 window.clear(sf::Color::Black);
@@ -122,13 +129,13 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             }
 
             // Si le Snake passe sur une Apple
-            if (snake.CollisionScreen(snakePosition.x, snakePosition.y, 50, 50,
-                                      apple->GetPosition().x, apple->GetPosition().y, 50, 50)) {
+            if (snake.CollisionScreen(snakePosition.x, snakePosition.y, 50, 50, apple->GetPosition().x, apple->GetPosition().y, 50, 50))
+            {
                 isAppleNeeded = true; // On redemande une nouvelle Apple
                 snake.AddCase();
             }
 
-            if (compteur == 20) {
+            if (compteur == 5) {
                 if (up) {
                     snake.ChooseDirection('u');
                 } else if (down) {
