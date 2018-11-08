@@ -8,7 +8,6 @@
 
 #include "Menu.h"
 #include "Snake.h"
-#include "Scene.h"
 
 class Game {
 public:

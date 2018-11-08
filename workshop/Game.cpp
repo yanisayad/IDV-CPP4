@@ -81,12 +81,9 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                     {
                         appleDrawPossible = false;
                     }
-                    else
-                    {
-                        apple->SetPosition(appleX, appleY);
-                        appleDrawPossible = true;
-                    }
                 }
+                apple->SetPosition(appleX, appleY);
+                appleDrawPossible = true;
                 isAppleNeeded = false;
             }
 
@@ -123,7 +120,7 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             if (snake.CollisionScreen(snakePosition.x, snakePosition.y, 50, 50,
                                       apple->GetPosition().x, apple->GetPosition().y, 50, 50)) {
                 isAppleNeeded = true; // On redemande une nouvelle Apple
-                snake.AddCase();
+                snake.Grow();
             }
 
             if (compteur == 20) {

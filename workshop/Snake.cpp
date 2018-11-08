@@ -64,19 +64,15 @@ float Snake::GetY() {
 }
 
 
-Snake::Snake(sf::RenderWindow &window, int sSize, int sSpeed) {
-    mTimeToUpdate = 250; // 1/4 second
-    mCurrentTime = 0.0f;
-    mLeft = mUp = mDown = false;
-    mRight = true;
+Snake::Snake(sf::RenderWindow &window) {
     srand(std::time(0));
-    AddCase();
-    AddCase();
-    AddCase();
-    AddCase();
+    Grow();
+    Grow();
+    Grow();
+    Grow();
 }
 
-void Snake::AddCase() {
+void Snake::Grow() {
     sf::RectangleShape rect;
     rect.setSize(sf::Vector2f(50.0f, 50.0f));
     rect.setOutlineColor(sf::Color::Black);
@@ -107,31 +103,6 @@ bool Snake::CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snak
             snakeY <= appleY + appleHeight &&
             snakeY + appleHeight >= appleY);
             */
-}
-
-void Snake::CheckCollision(sf::RenderWindow &window)
-{
-    for (unsigned int i = 2; i < mSnakes.size(); i++) // Snake's boxes
-    {
-        if (mSnakes[0].getPosition().x == mSnakes[i].getPosition().x
-            && mSnakes[0].getPosition().y == mSnakes[i].getPosition().y)
-        {
-            window.close();
-        }
-    }
-
-    if (mSnakes[0].getPosition().x < 0 || mSnakes[0].getPosition().x + mSnakes[0].getSize().x > window.getSize().x // Window collision
-        || mSnakes[0].getPosition().y < 0 || mSnakes[0].getPosition().y + mSnakes[0].getSize().y > window.getSize().y)
-    {
-        window.close();
-    }
-
-    if (mSnakes[0].getPosition().x == mFood.getPosition().x // Food collision
-        && mSnakes[0].getPosition().y == mFood.getPosition().y)
-    {
-        usleep(10);
-        AddCase();
-    }
 }
 
 

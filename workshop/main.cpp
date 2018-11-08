@@ -6,7 +6,6 @@
 
 #include "AbstractEntity.h"
 #include "EntityFactory.h"
-#include "Scene.h"
 #include "TimeManager.h"
 
 #include "Snake.h"
@@ -20,14 +19,7 @@ int main() {
     // Variables
     sf::Event event;
     Game *game;
-    unsigned int fps = 0;
-    float snakeSpeed = 50;
-    bool collision = false;
     bool start = true;
-    int appleX;
-    int appleY;
-    bool appleDrawPossible = true;
-    bool isAppleNeeded = true;
     int nbParty = 0;
 
     sf::RenderWindow window(sf::VideoMode((50 * 15), (50 * 15)), "LittleBigSnake");
@@ -43,7 +35,7 @@ int main() {
     game = new Game();
 
     // Snake
-    Snake snake(window, 50, 15);
+    Snake snake(window);
     while (window.isOpen()) {
         while (start) {
             // Boucle d'evenement SFML

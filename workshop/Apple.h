@@ -18,12 +18,12 @@ public:
 
     virtual void Draw(sf::RenderWindow &window) override;
 
-    void SetPosition(int x, int y);
+    virtual void SetPosition(int x, int y) override;
 
     virtual int GeneratePosition() override;
 
 
-    sf::Vector2f GetPosition();
+    virtual sf::Vector2f GetPosition() override;
 
     ~Apple();
 
