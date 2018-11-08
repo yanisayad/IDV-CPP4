@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop
+CMAKE_SOURCE_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug
+CMAKE_BINARY_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,32 +285,32 @@ Menu.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
 
-Scene.o: Scene.cpp.o
+Options.o: Options.cpp.o
 
-.PHONY : Scene.o
+.PHONY : Options.o
 
 # target to build an object file
-Scene.cpp.o:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Scene.cpp.o
-.PHONY : Scene.cpp.o
+Options.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Options.cpp.o
+.PHONY : Options.cpp.o
 
-Scene.i: Scene.cpp.i
+Options.i: Options.cpp.i
 
-.PHONY : Scene.i
+.PHONY : Options.i
 
 # target to preprocess a source file
-Scene.cpp.i:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Scene.cpp.i
-.PHONY : Scene.cpp.i
+Options.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Options.cpp.i
+.PHONY : Options.cpp.i
 
-Scene.s: Scene.cpp.s
+Options.s: Options.cpp.s
 
-.PHONY : Scene.s
+.PHONY : Options.s
 
 # target to generate assembly for a file
-Scene.cpp.s:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Scene.cpp.s
-.PHONY : Scene.cpp.s
+Options.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Options.cpp.s
+.PHONY : Options.cpp.s
 
 Snake.o: Snake.cpp.o
 
@@ -338,60 +338,6 @@ Snake.s: Snake.cpp.s
 Snake.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Snake.cpp.s
 .PHONY : Snake.cpp.s
-
-SnakeEntity.o: SnakeEntity.cpp.o
-
-.PHONY : SnakeEntity.o
-
-# target to build an object file
-SnakeEntity.cpp.o:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/SnakeEntity.cpp.o
-.PHONY : SnakeEntity.cpp.o
-
-SnakeEntity.i: SnakeEntity.cpp.i
-
-.PHONY : SnakeEntity.i
-
-# target to preprocess a source file
-SnakeEntity.cpp.i:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/SnakeEntity.cpp.i
-.PHONY : SnakeEntity.cpp.i
-
-SnakeEntity.s: SnakeEntity.cpp.s
-
-.PHONY : SnakeEntity.s
-
-# target to generate assembly for a file
-SnakeEntity.cpp.s:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/SnakeEntity.cpp.s
-.PHONY : SnakeEntity.cpp.s
-
-Square.o: Square.cpp.o
-
-.PHONY : Square.o
-
-# target to build an object file
-Square.cpp.o:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Square.cpp.o
-.PHONY : Square.cpp.o
-
-Square.i: Square.cpp.i
-
-.PHONY : Square.i
-
-# target to preprocess a source file
-Square.cpp.i:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Square.cpp.i
-.PHONY : Square.cpp.i
-
-Square.s: Square.cpp.s
-
-.PHONY : Square.s
-
-# target to generate assembly for a file
-Square.cpp.s:
-	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Square.cpp.s
-.PHONY : Square.cpp.s
 
 TimeManager.o: TimeManager.cpp.o
 
@@ -474,18 +420,12 @@ help:
 	@echo "... Menu.o"
 	@echo "... Menu.i"
 	@echo "... Menu.s"
-	@echo "... Scene.o"
-	@echo "... Scene.i"
-	@echo "... Scene.s"
+	@echo "... Options.o"
+	@echo "... Options.i"
+	@echo "... Options.s"
 	@echo "... Snake.o"
 	@echo "... Snake.i"
 	@echo "... Snake.s"
-	@echo "... SnakeEntity.o"
-	@echo "... SnakeEntity.i"
-	@echo "... SnakeEntity.s"
-	@echo "... Square.o"
-	@echo "... Square.i"
-	@echo "... Square.s"
 	@echo "... TimeManager.o"
 	@echo "... TimeManager.i"
 	@echo "... TimeManager.s"

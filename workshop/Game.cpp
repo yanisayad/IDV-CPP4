@@ -8,6 +8,7 @@
 #include "EntityFactory.h"
 #include <SFML/Graphics.hpp>
 #include "unistd.h"
+#include "Options.h"
 
 Game::Game()
 {
@@ -28,6 +29,7 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
     bool body_collision = false;
     AbstractEntity *apple;
     EntityFactory *factory;
+    Options *sound = new Options();
 
     bool right = true;
     bool left = false;
@@ -99,6 +101,7 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             if (snakePosition.x < (50 * 15) && snakePosition.x > -1 &&
                 snakePosition.y > -1 && snakePosition.y < (50 * 15) && !body_collision) {
             } else {
+                start = false;
                 collision = true;
                 window.clear(sf::Color::Black);
                 sf::Text endMessage("Game Over", font, 11);
@@ -110,15 +113,13 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
                                        2);
                 window.draw(endMessage);
                 window.display();
-
-                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
-                    return nbParty + 1;
-                }
+                sound->PlaySound("sounds/gameover.ogg");
             }
 
             // Si le Snake passe sur une Apple
             if (snake.CollisionScreen(snakePosition.x, snakePosition.y, 50, 50,
                                       apple->GetPosition().x, apple->GetPosition().y, 50, 50)) {
+                sound->PlaySound("sounds/apple.ogg");
                 isAppleNeeded = true; // On redemande une nouvelle Apple
                 snake.Grow();
             }
@@ -158,6 +159,10 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
 
                 window.display();
             }
+        }
+
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
+            return nbParty + 1;
         }
     }
 }
