@@ -131,7 +131,7 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sc
                 window.display();
 
                 if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
-                    start = false;
+                    return nbParty + 1;
                 }
             }
 
@@ -179,6 +179,5 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sc
             }
         }
     }
-    return nbParty + 1;
 }
 
