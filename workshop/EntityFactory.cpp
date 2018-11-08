@@ -6,6 +6,7 @@
 #include "Snake.h"
 #include "Apple.h"
 
+// Constructeur
 AbstractEntity *EntityFactory::Create(const std::string &str) {
 
     AbstractEntity *entity = nullptr;

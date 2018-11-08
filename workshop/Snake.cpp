@@ -6,22 +6,38 @@
 #include <SFML/Graphics.hpp>
 #include <unistd.h>
 
+// Constructeur
 Snake::Snake(sf::RenderWindow &window) {
     srand(std::time(0));
     Grow();
     Grow();
+    Grow();
+    Grow();
 }
 
+//Destructeur
 Snake::~Snake() {
 
 }
 
+/* Dessine les elements du serpent
+ *
+ * @params sf::RenderWindow window
+ *
+ * return void
+ */
 void Snake::Draw(sf::RenderWindow &window) {
     for (unsigned int i = 0; i < mSnakes.size(); i++)
         window.draw(mSnakes[i]);
 
 }
 
+/* Choix de la direction du serpent
+ *
+ * @params char direction
+ *
+ * return void
+ */
 void Snake::ChooseDirection(char direction) {
     if (mSnakes.size() > 1)
     {
@@ -49,6 +65,10 @@ void Snake::ChooseDirection(char direction) {
     }
 }
 
+/* Fonction permettant que le serpent mange et ajoute les elements
+ *
+ * return void
+ */
 void Snake::Grow() {
     sf::RectangleShape rect;
     rect.setSize(sf::Vector2f(50.0f, 50.0f));
@@ -69,6 +89,15 @@ void Snake::Grow() {
     mSnakes.push_back(rect);
 }
 
+/* Check les collisions
+ *
+ * @params float snakeX
+ * @params float snakeY
+ * @param  int   appleX
+ * @param  int   appleY
+ *
+ * return bool
+ */
 bool Snake::CollisionScreen(float snakeX, float snakeY, int appleX, int appleY) {
 
     int offset = 5;

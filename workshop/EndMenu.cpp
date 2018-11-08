@@ -5,6 +5,7 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include "EndMenu.h"
 
+//Constructeur
 EndMenu::EndMenu(float width, float height)
 {
     if (!font.loadFromFile("fonts//GROBOLD.ttf")) {
@@ -28,6 +29,10 @@ EndMenu::~EndMenu()
 {
 }
 
+/* On dessine le menu de fin
+ *
+ * return void
+ */
 void EndMenu::draw(sf::RenderWindow &window)
 {
     for (int i = 0; i < MAX_NUMBER_OF_ITEMS_END; i++) {
@@ -35,6 +40,9 @@ void EndMenu::draw(sf::RenderWindow &window)
     }
 }
 
+/* On monte dans le menu de fin
+ * return void
+ */
 void EndMenu::MoveUp()
 {
     if (selectedItemIndex - 1 >= 0) {
@@ -44,6 +52,10 @@ void EndMenu::MoveUp()
     }
 }
 
+/* On descend dans le menu de fin
+ *
+ * return void
+ */
 void EndMenu::MoveDown()
 {
     if (selectedItemIndex + 1 < MAX_NUMBER_OF_ITEMS_END) {

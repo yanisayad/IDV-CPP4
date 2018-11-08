@@ -4,6 +4,7 @@
 
 #include "Menu.h"
 
+//Constructeur
 Menu::Menu(float width, float height)
 {
     if (!font.loadFromFile("fonts/GROBOLD.ttf")) {
@@ -28,10 +29,17 @@ Menu::Menu(float width, float height)
     selectedItemIndex = 0;
 }
 
+//Destructeur
 Menu::~Menu()
 {
 }
 
+/* Dessine le menu
+ *
+ * @params sf::RenderWindow window
+ *
+ * return void
+ */
 void Menu::draw(sf::RenderWindow &window)
 {
     for (int i = 0; i < MAX_NUMBER_OF_ITEMS; i++) {
@@ -39,6 +47,11 @@ void Menu::draw(sf::RenderWindow &window)
     }
 }
 
+/* On monte dans le menu
+ *
+ *
+ * return void
+ */
 void Menu::MoveUp()
 {
     if (selectedItemIndex - 1 >= 0) {
@@ -48,6 +61,10 @@ void Menu::MoveUp()
     }
 }
 
+/* On descend dans le menu
+ *
+ * return void
+ */
 void Menu::MoveDown()
 {
     if (selectedItemIndex + 1 < MAX_NUMBER_OF_ITEMS) {

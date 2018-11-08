@@ -14,6 +14,12 @@ Options::~Options() {
 
 }
 
+/* Joue le son
+ *
+ * @params string name
+ *
+ * return void
+ */
 void Options::PlaySound(std::string name) {
     if (music.openFromFile(name))
         music.play();
