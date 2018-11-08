@@ -46,7 +46,9 @@ int main() {
     game = new Game();
 
     // Snake
-    Snake snake(window, 50, 15);
+    Snake *snake = Snake::getInstance(window, 50, 15);
+
+    //Snake snake(window, 50, 15);
     while (window.isOpen()) {
         while (start) {
             // Boucle d'evenement SFML
@@ -69,7 +71,7 @@ int main() {
                                         case 0:
                                             // BOUCLE DE JEU !!
                                             std::cout << "Play" << std::endl;
-                                            nbParty = game->loopGame(window, event, font, scene, snake,nbParty);
+                                            nbParty = game->loopGame(window, event, font, scene, *snake, nbParty);
                                             break;
                                         case 1 :
                                             std::cout << "Options" << std::endl;
@@ -105,7 +107,7 @@ int main() {
                                         case 0:
                                             // BOUCLE DE JEU !!
                                             std::cout << "Replay" << std::endl;
-                                            nbParty = game->loopGame(window, event, font, scene, snake, nbParty);
+                                            nbParty = game->loopGame(window, event, font, scene, *snake, nbParty);
                                             break;
                                         case 1:
                                             window.close();

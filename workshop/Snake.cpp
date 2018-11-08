@@ -6,6 +6,8 @@
 #include <SFML/Graphics.hpp>
 #include <unistd.h>
 
+Snake *Snake::singleton = nullptr;
+
 
 Snake::~Snake() {
 

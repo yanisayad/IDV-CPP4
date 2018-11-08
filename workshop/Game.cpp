@@ -16,7 +16,7 @@ Game::~Game()
 {
 }
 
-int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake snake, int nbParty) {
+int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake &snake, int nbParty) {
     int appleX;
     int appleY;
     bool start = true;
