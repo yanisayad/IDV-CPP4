@@ -74,13 +74,18 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             if (isAppleNeeded) {
                 appleX = apple->GeneratePosition();
                 appleY = apple->GeneratePosition();
-                if (snakePosition.x == apple->GetPosition().x &&
-                    snakePosition.y == apple->GetPosition().y) {
-                    appleDrawPossible = false;
-                    break;
-                } else {
-                    apple->SetPosition(appleX, appleY);
-                    appleDrawPossible = true;
+                for (unsigned int i = snake.mSnakes.size(); i > 0; i--)
+                {
+                    if (snake.mSnakes[i].getPosition().x == apple->GetPosition().x &&
+                            snake.mSnakes[i].getPosition().y == apple->GetPosition().y)
+                    {
+                        appleDrawPossible = false;
+                    }
+                    else
+                    {
+                        apple->SetPosition(appleX, appleY);
+                        appleDrawPossible = true;
+                    }
                 }
                 isAppleNeeded = false;
             }
