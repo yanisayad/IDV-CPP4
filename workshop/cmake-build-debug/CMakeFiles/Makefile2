@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop
+CMAKE_SOURCE_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/workshop.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-de
 CMakeFiles/workshop.dir/all:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/depend
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target workshop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target workshop"
 .PHONY : CMakeFiles/workshop.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/workshop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/workshop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/workshop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/workshop.dir/rule
 
 # Convenience name for target.

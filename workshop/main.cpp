@@ -57,11 +57,9 @@ int main() {
                                     switch (menu.GetPressedItem()) {
                                         case 0:
                                             // BOUCLE DE JEU !!
-                                            std::cout << "Play" << std::endl;
                                             nbParty = game->loopGame(window, event, font, snake,nbParty);
                                             break;
                                         case 1 :
-                                            std::cout << "Options" << std::endl;
                                             break;
                                         case 2:
                                             window.close();
@@ -93,7 +91,6 @@ int main() {
                                     switch (endmenu.GetPressedItem()) {
                                         case 0:
                                             // BOUCLE DE JEU !!
-                                            std::cout << "Replay" << std::endl;
                                             nbParty = game->loopGame(window, event, font, snake, nbParty);
                                             break;
                                         case 1:

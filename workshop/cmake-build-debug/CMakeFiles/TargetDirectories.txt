@@ -1,3 +1,3 @@
-/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir

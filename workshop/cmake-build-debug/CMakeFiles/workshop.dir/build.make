@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/abenito/Téléchargements/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop
+CMAKE_SOURCE_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/workshop.dir/depend.make
@@ -59,133 +59,133 @@ include CMakeFiles/workshop.dir/flags.make
 
 CMakeFiles/workshop.dir/main.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workshop.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/main.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workshop.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/main.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/main.cpp
 
 CMakeFiles/workshop.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/main.cpp > CMakeFiles/workshop.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/main.cpp > CMakeFiles/workshop.dir/main.cpp.i
 
 CMakeFiles/workshop.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/main.cpp -o CMakeFiles/workshop.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/main.cpp -o CMakeFiles/workshop.dir/main.cpp.s
 
 CMakeFiles/workshop.dir/AbstractEntity.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/AbstractEntity.cpp.o: ../AbstractEntity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/AbstractEntity.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/AbstractEntity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/AbstractEntity.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.cpp
 
 CMakeFiles/workshop.dir/AbstractEntity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/AbstractEntity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/AbstractEntity.cpp > CMakeFiles/workshop.dir/AbstractEntity.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.cpp > CMakeFiles/workshop.dir/AbstractEntity.cpp.i
 
 CMakeFiles/workshop.dir/AbstractEntity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/AbstractEntity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/AbstractEntity.cpp -o CMakeFiles/workshop.dir/AbstractEntity.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.cpp -o CMakeFiles/workshop.dir/AbstractEntity.cpp.s
 
 CMakeFiles/workshop.dir/EntityFactory.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/EntityFactory.cpp.o: ../EntityFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/workshop.dir/EntityFactory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/EntityFactory.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/EntityFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/workshop.dir/EntityFactory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/EntityFactory.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp
 
 CMakeFiles/workshop.dir/EntityFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/EntityFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/EntityFactory.cpp > CMakeFiles/workshop.dir/EntityFactory.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp > CMakeFiles/workshop.dir/EntityFactory.cpp.i
 
 CMakeFiles/workshop.dir/EntityFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/EntityFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/EntityFactory.cpp -o CMakeFiles/workshop.dir/EntityFactory.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp -o CMakeFiles/workshop.dir/EntityFactory.cpp.s
 
 CMakeFiles/workshop.dir/TimeManager.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/TimeManager.cpp.o: ../TimeManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/workshop.dir/TimeManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/TimeManager.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/TimeManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/workshop.dir/TimeManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/TimeManager.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.cpp
 
 CMakeFiles/workshop.dir/TimeManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/TimeManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/TimeManager.cpp > CMakeFiles/workshop.dir/TimeManager.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.cpp > CMakeFiles/workshop.dir/TimeManager.cpp.i
 
 CMakeFiles/workshop.dir/TimeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/TimeManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/TimeManager.cpp -o CMakeFiles/workshop.dir/TimeManager.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.cpp -o CMakeFiles/workshop.dir/TimeManager.cpp.s
 
 CMakeFiles/workshop.dir/Menu.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/workshop.dir/Menu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Menu.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/workshop.dir/Menu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Menu.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.cpp
 
 CMakeFiles/workshop.dir/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/Menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Menu.cpp > CMakeFiles/workshop.dir/Menu.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.cpp > CMakeFiles/workshop.dir/Menu.cpp.i
 
 CMakeFiles/workshop.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/Menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Menu.cpp -o CMakeFiles/workshop.dir/Menu.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.cpp -o CMakeFiles/workshop.dir/Menu.cpp.s
 
 CMakeFiles/workshop.dir/Snake.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/Snake.cpp.o: ../Snake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/workshop.dir/Snake.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Snake.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Snake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/workshop.dir/Snake.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Snake.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp
 
 CMakeFiles/workshop.dir/Snake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/Snake.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Snake.cpp > CMakeFiles/workshop.dir/Snake.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp > CMakeFiles/workshop.dir/Snake.cpp.i
 
 CMakeFiles/workshop.dir/Snake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/Snake.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Snake.cpp -o CMakeFiles/workshop.dir/Snake.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp -o CMakeFiles/workshop.dir/Snake.cpp.s
 
 CMakeFiles/workshop.dir/Options.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/Options.cpp.o: ../Options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/workshop.dir/Options.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Options.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/workshop.dir/Options.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Options.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Options.cpp
 
 CMakeFiles/workshop.dir/Options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/Options.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Options.cpp > CMakeFiles/workshop.dir/Options.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Options.cpp > CMakeFiles/workshop.dir/Options.cpp.i
 
 CMakeFiles/workshop.dir/Options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/Options.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Options.cpp -o CMakeFiles/workshop.dir/Options.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Options.cpp -o CMakeFiles/workshop.dir/Options.cpp.s
 
 CMakeFiles/workshop.dir/Apple.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/Apple.cpp.o: ../Apple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/workshop.dir/Apple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Apple.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Apple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/workshop.dir/Apple.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Apple.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.cpp
 
 CMakeFiles/workshop.dir/Apple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/Apple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Apple.cpp > CMakeFiles/workshop.dir/Apple.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.cpp > CMakeFiles/workshop.dir/Apple.cpp.i
 
 CMakeFiles/workshop.dir/Apple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/Apple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Apple.cpp -o CMakeFiles/workshop.dir/Apple.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.cpp -o CMakeFiles/workshop.dir/Apple.cpp.s
 
 CMakeFiles/workshop.dir/Game.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/workshop.dir/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Game.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/workshop.dir/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/Game.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp
 
 CMakeFiles/workshop.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Game.cpp > CMakeFiles/workshop.dir/Game.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp > CMakeFiles/workshop.dir/Game.cpp.i
 
 CMakeFiles/workshop.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/Game.cpp -o CMakeFiles/workshop.dir/Game.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp -o CMakeFiles/workshop.dir/Game.cpp.s
 
 CMakeFiles/workshop.dir/EndMenu.cpp.o: CMakeFiles/workshop.dir/flags.make
 CMakeFiles/workshop.dir/EndMenu.cpp.o: ../EndMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/workshop.dir/EndMenu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/EndMenu.cpp.o -c /home/abenito/Documents/ETNA/IDV-CPP4/workshop/EndMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/workshop.dir/EndMenu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workshop.dir/EndMenu.cpp.o -c /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EndMenu.cpp
 
 CMakeFiles/workshop.dir/EndMenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workshop.dir/EndMenu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abenito/Documents/ETNA/IDV-CPP4/workshop/EndMenu.cpp > CMakeFiles/workshop.dir/EndMenu.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EndMenu.cpp > CMakeFiles/workshop.dir/EndMenu.cpp.i
 
 CMakeFiles/workshop.dir/EndMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workshop.dir/EndMenu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abenito/Documents/ETNA/IDV-CPP4/workshop/EndMenu.cpp -o CMakeFiles/workshop.dir/EndMenu.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EndMenu.cpp -o CMakeFiles/workshop.dir/EndMenu.cpp.s
 
 # Object files for target workshop
 workshop_OBJECTS = \
@@ -214,13 +214,13 @@ workshop: CMakeFiles/workshop.dir/Apple.cpp.o
 workshop: CMakeFiles/workshop.dir/Game.cpp.o
 workshop: CMakeFiles/workshop.dir/EndMenu.cpp.o
 workshop: CMakeFiles/workshop.dir/build.make
-workshop: /usr/lib/x86_64-linux-gnu/libsfml-system.so
-workshop: /usr/lib/x86_64-linux-gnu/libsfml-window.so
-workshop: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
-workshop: /usr/lib/x86_64-linux-gnu/libsfml-network.so
-workshop: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
+workshop: /usr/local/lib/libsfml-system.dylib
+workshop: /usr/local/lib/libsfml-window.dylib
+workshop: /usr/local/lib/libsfml-graphics.dylib
+workshop: /usr/local/lib/libsfml-network.dylib
+workshop: /usr/local/lib/libsfml-audio.dylib
 workshop: CMakeFiles/workshop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable workshop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable workshop"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workshop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/workshop.dir/clean:
 .PHONY : CMakeFiles/workshop.dir/clean
 
 CMakeFiles/workshop.dir/depend:
-	cd /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abenito/Documents/ETNA/IDV-CPP4/workshop /home/abenito/Documents/ETNA/IDV-CPP4/workshop /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug /home/abenito/Documents/ETNA/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/workshop.dir/depend
 

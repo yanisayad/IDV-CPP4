@@ -37,6 +37,8 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
     bool down = false;
     int compteur = 0;
 
+    std::string last_direction;
+
     factory = new EntityFactory();
     TimeManager::GetInstance().Start();
     while (window.isOpen()) {
@@ -47,26 +49,30 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             while (window.pollEvent(event)) {
                 if (event.type == sf::Event::Closed)
                     window.close();
-                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
+                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && last_direction != "down") {
                         right = false;
                         left = false;
                         up = true;
                         down = false;
-                    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+                        last_direction = "up";
+                    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && last_direction != "up") {
                         right = false;
                         left = false;
                         up = false;
                         down = true;
-                    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+                        last_direction = "down";
+                    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) && last_direction != "right") {
                         right = false;
                         left = true;
                         up = false;
                         down = false;
-                    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+                        last_direction = "left";
+                    } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) && last_direction != "left") {
                         right = true;
                         left = false;
                         up = false;
                         down = false;
+                        last_direction = "right";
                     }
             }
             // Position de la tete Snake
@@ -90,10 +96,8 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             }
 
             for (unsigned int i = snake.mSnakes.size() - 1; i > 0; i--) {
-                if (snake.CollisionScreen(snake.mSnakes[0].getPosition().x, snake.mSnakes[0].getPosition().y, 45,
-                                          45,
-                                          snake.mSnakes[i].getPosition().x, snake.mSnakes[i].getPosition().y, 49,
-                                          49)) {
+                if (snake.CollisionScreen(snake.mSnakes[0].getPosition().x, snake.mSnakes[0].getPosition().y,
+                                          snake.mSnakes[i].getPosition().x, snake.mSnakes[i].getPosition().y)) {
                     body_collision = true;
                 }
             }
@@ -117,14 +121,14 @@ int Game::loopGame (sf::RenderWindow &window, sf::Event event, sf::Font font, Sn
             }
 
             // Si le Snake passe sur une Apple
-            if (snake.CollisionScreen(snakePosition.x, snakePosition.y, 50, 50,
-                                      apple->GetPosition().x, apple->GetPosition().y, 50, 50)) {
+            if (snake.CollisionScreen(snakePosition.x, snakePosition.y,
+                                      apple->GetPosition().x, apple->GetPosition().y)) {
                 sound->PlaySound("sounds/apple.ogg");
                 isAppleNeeded = true; // On redemande une nouvelle Apple
                 snake.Grow();
             }
 
-            if (compteur == 20) {
+            if (compteur == 10) {
                 if (up) {
                     snake.ChooseDirection('u');
                 } else if (down) {

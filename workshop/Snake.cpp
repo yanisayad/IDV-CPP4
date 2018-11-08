@@ -6,6 +6,11 @@
 #include <SFML/Graphics.hpp>
 #include <unistd.h>
 
+Snake::Snake(sf::RenderWindow &window) {
+    srand(std::time(0));
+    Grow();
+    Grow();
+}
 
 Snake::~Snake() {
 
@@ -29,7 +34,6 @@ void Snake::ChooseDirection(char direction) {
     switch (direction) {
         case 'u':
             mSnakes[0].move(0, -mSpeed);
-            std::cout << mSpeed << std::endl;
             break;
         case 'd':
             mSnakes[0].move(0, mSpeed);
@@ -43,33 +47,6 @@ void Snake::ChooseDirection(char direction) {
         default:
             break;
     }
-    //last_direction = direction;
-}
-
-
-sf::Vector2f Snake::GetPosition() {
-    return mSnakes[0].getPosition();
-}
-
-void Snake::SetPosition(sf::RenderWindow &window) {
-    snake.setPosition(50 * 10, 50 * 3);
-}
-
-float Snake::GetX() {
-    return snake.getPosition().x;
-}
-
-float Snake::GetY() {
-    return snake.getPosition().y;
-}
-
-
-Snake::Snake(sf::RenderWindow &window) {
-    srand(std::time(0));
-    Grow();
-    Grow();
-    Grow();
-    Grow();
 }
 
 void Snake::Grow() {
@@ -92,17 +69,11 @@ void Snake::Grow() {
     mSnakes.push_back(rect);
 }
 
-bool Snake::CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
-                      int appleHeight) {
+bool Snake::CollisionScreen(float snakeX, float snakeY, int appleX, int appleY) {
 
     int offset = 5;
 
     return ((snakeX <= appleX + offset) && (snakeX >= appleX - offset)) && ((snakeY <= appleY + offset) && (snakeY >= appleY - offset));
-    /*return (snakeX <= appleX + appleWidth &&
-            snakeX + appleWidth >= appleX &&
-            snakeY <= appleY + appleHeight &&
-            snakeY + appleHeight >= appleY);
-            */
 }
 
 

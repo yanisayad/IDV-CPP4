@@ -23,17 +23,9 @@ public:
     void ChooseDirection(char direction);
     void Grow();
 
-    void SetPosition(sf::RenderWindow &window);
-
-    sf::Vector2f GetPosition();
     std::vector<sf::RectangleShape> mSnakes;
 
-    bool CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
-                   int appleHeight);
-
-    float GetX();
-
-    float GetY();
+    bool CollisionScreen(float snakeX, float snakeY, int appleX, int appleY);
 
     ~Snake();
 private:
