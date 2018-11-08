@@ -6,7 +6,6 @@
 #define WORKSHOP_GAME_HH
 
 
-#include <MacTypes.h>
 #include "Menu.h"
 #include "Snake.h"
 #include "Scene.h"
@@ -16,9 +15,9 @@ public:
     Game();
     ~Game();
 
-    void loopGame(sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake snake);
+    int loopGame(sf::RenderWindow &window, sf::Event event, sf::Font font, Scene *scene, Snake snake, int nbParty);
 
-
+    //char last_touch;
 protected:
 
 };

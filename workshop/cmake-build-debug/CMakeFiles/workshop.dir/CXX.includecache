@@ -6,11 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.cpp
-Snake.h
-/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.h
+
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.h
 SFML/Graphics.hpp
 -
+
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp
+Game.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.h
+Apple.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.h
+TimeManager.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.h
+SFML/Graphics.hpp
+-
+unistd.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/unistd.h
+
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.h
+Menu.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.h
+Snake.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.h
+Scene.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Scene.h
+
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.h
+SFML/Graphics.hpp
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/SFML/Graphics.hpp
+
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Scene.h
+iostream
+-
+list
+-
+AbstractEntity.h
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.h
 
 /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Snake.h
 iostream
@@ -27,6 +59,8 @@ Square.h
 /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Square.h
 
 /Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Square.h
+
+/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/TimeManager.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

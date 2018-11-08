@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/AbstractEntity.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/AbstractEntity.cpp.o"
   "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Apple.cpp.o"
+  "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EndMenu.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EndMenu.cpp.o"
   "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/EntityFactory.cpp.o"
   "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Game.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Game.cpp.o"
   "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Menu.cpp" "/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/cmake-build-debug/CMakeFiles/workshop.dir/Menu.cpp.o"

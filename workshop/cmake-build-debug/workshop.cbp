@@ -94,6 +94,12 @@
 		<Unit filename="/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/Apple.h">
 			<Option target="workshop"/>
 		</Unit>
+		<Unit filename="/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EndMenu.cpp">
+			<Option target="workshop"/>
+		</Unit>
+		<Unit filename="/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EndMenu.h">
+			<Option target="workshop"/>
+		</Unit>
 		<Unit filename="/Users/Yanis/svn/LittleBigGame/IDV-CPP4/workshop/EntityFactory.cpp">
 			<Option target="workshop"/>
 		</Unit>

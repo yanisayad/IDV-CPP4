@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workshop.dir/Square.cpp.o"
   "CMakeFiles/workshop.dir/Apple.cpp.o"
   "CMakeFiles/workshop.dir/Game.cpp.o"
+  "CMakeFiles/workshop.dir/EndMenu.cpp.o"
   "workshop.pdb"
   "workshop"
 )

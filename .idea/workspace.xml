@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f132461d-1ccb-47df-8885-94fad55ff044" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/Game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/Snake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/Snake.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/Snake.h" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/Snake.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -30,15 +32,19 @@
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/CMakeFiles/workshop.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/workshop" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/workshop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop/cmake-build-debug/workshop.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/cmake-build-debug/workshop.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/workshop/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,16 +66,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="4" />
-          <entry key="h" value="3" />
+          <entry key="cpp" value="7" />
+          <entry key="h" value="7" />
           <entry key="hpp" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="9" />
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -79,13 +85,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="690" />
-          <entry key="h" value="72" />
+          <entry key="cpp" value="1733" />
+          <entry key="h" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="762" />
+          <entry key="ObjectiveC" value="1879" />
         </counts>
       </usages-collector>
     </session>
@@ -95,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshop/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="195">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -104,8 +110,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshop/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+            <state relative-caret-position="390">
+              <caret line="34" column="51" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshop/Snake.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="72">
+              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="e#103#122#0" expanded="true" />
               </folding>
@@ -122,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshop/Snake.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+            <state relative-caret-position="297">
+              <caret line="103" column="124" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
               <folding>
                 <element signature="e#52#70#0" expanded="true" />
               </folding>
@@ -135,19 +144,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/SFML/Graphics/Transformable.hpp">
+        <entry file="file://$PROJECT_DIR$/workshop/Apple.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="239" column="38" lean-forward="true" selection-start-line="239" selection-start-column="38" selection-end-line="239" selection-end-column="38" />
+            <state relative-caret-position="317">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workshop/Game.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="351">
+              <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+              <folding>
+                <element signature="e#42#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,16 +170,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workshop/SnakeEntity.cpp">
+        <entry file="file://$PROJECT_DIR$/workshop/Game.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workshop/SnakeEntity.h">
+        <entry file="file://$PROJECT_DIR$/workshop/Menu.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop/Apple.cpp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -181,6 +202,7 @@
       <find>mspeed</find>
       <find>setSize</find>
       <find>s</find>
+      <find>last_direction</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,9 +217,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/workshop/main.cpp" />
-        <option value="$PROJECT_DIR$/workshop/Game.cpp" />
         <option value="$PROJECT_DIR$/workshop/Snake.h" />
+        <option value="$PROJECT_DIR$/workshop/Game.h" />
         <option value="$PROJECT_DIR$/workshop/Snake.cpp" />
+        <option value="$PROJECT_DIR$/workshop/Game.cpp" />
       </list>
     </option>
   </component>
@@ -281,12 +304,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541607848534</updated>
       <workItem from="1541607850424" duration="4909000" />
-      <workItem from="1541618219194" duration="2600000" />
+      <workItem from="1541618219194" duration="12036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7509000" />
+    <option name="totallyTimeSpent" value="16945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="0" />
@@ -321,23 +344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workshop/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workshop/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workshop/Scene.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/workshop/SnakeEntity.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -345,13 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="239" column="38" lean-forward="true" selection-start-line="239" selection-start-column="38" selection-end-line="239" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workshop/Game.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -369,22 +368,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Menu.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Scene.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Menu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Apple.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Apple.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workshop/Snake.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="72">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
             <element signature="e#103#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Game.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workshop/Snake.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        <state relative-caret-position="297">
+          <caret line="103" column="124" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
           <folding>
             <element signature="e#52#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding>
+            <element signature="e#42#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

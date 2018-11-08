@@ -177,6 +177,33 @@ Apple.cpp.s:
 	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/Apple.cpp.s
 .PHONY : Apple.cpp.s
 
+EndMenu.o: EndMenu.cpp.o
+
+.PHONY : EndMenu.o
+
+# target to build an object file
+EndMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EndMenu.cpp.o
+.PHONY : EndMenu.cpp.o
+
+EndMenu.i: EndMenu.cpp.i
+
+.PHONY : EndMenu.i
+
+# target to preprocess a source file
+EndMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EndMenu.cpp.i
+.PHONY : EndMenu.cpp.i
+
+EndMenu.s: EndMenu.cpp.s
+
+.PHONY : EndMenu.s
+
+# target to generate assembly for a file
+EndMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/workshop.dir/build.make CMakeFiles/workshop.dir/EndMenu.cpp.s
+.PHONY : EndMenu.cpp.s
+
 EntityFactory.o: EntityFactory.cpp.o
 
 .PHONY : EntityFactory.o
@@ -435,6 +462,9 @@ help:
 	@echo "... Apple.o"
 	@echo "... Apple.i"
 	@echo "... Apple.s"
+	@echo "... EndMenu.o"
+	@echo "... EndMenu.i"
+	@echo "... EndMenu.s"
 	@echo "... EntityFactory.o"
 	@echo "... EntityFactory.i"
 	@echo "... EntityFactory.s"

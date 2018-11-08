@@ -19,22 +19,21 @@ class Snake {
 public:
     Snake(sf::RenderWindow &window, int sSize, int sSpeed);
 
-    void Move(sf::RenderWindow &window);
-    void Update(sf::Event &event);
+
     void DrawSnake(sf::RenderWindow &window);
-
     void ChooseDirection(char direction);
-
-    void MoveSnake(char direction);
+    void AddCase();
 
     void SetPosition(sf::RenderWindow &window);
 
     sf::Vector2f GetPosition();
+    std::vector<sf::RectangleShape> mSnakes;
 
 //    bool CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeight,
 //            int appleX, int appleY, int appleWidth, int appleHeight);
 
-
+    bool CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
+                   int appleHeight);
 
     float GetX();
 
@@ -51,9 +50,10 @@ private:
     int mSpeed = 50;
     bool mLeft, mRight, mUp, mDown;
     float mCurrentTime;
-    std::vector<sf::RectangleShape> mSnakes;
+    char last_direction;
 
-    void AddCase();
+
+
     void CheckCollision(sf::RenderWindow &window);
 
 };
