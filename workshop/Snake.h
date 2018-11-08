@@ -11,7 +11,7 @@
 #include <ctime>
 #include <SFML/Graphics.hpp>
 
-#include "Square.h"
+#include "AbstractEntity.h"
 
 class Square;
 
@@ -19,8 +19,7 @@ class Snake {
 public:
     Snake(sf::RenderWindow &window, int sSize, int sSpeed);
 
-
-    void DrawSnake(sf::RenderWindow &window);
+    void Draw(sf::RenderWindow &window);
     void ChooseDirection(char direction);
     void AddCase();
 

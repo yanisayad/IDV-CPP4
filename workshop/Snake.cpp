@@ -11,7 +11,7 @@ Snake::~Snake() {
 
 }
 
-void Snake::DrawSnake(sf::RenderWindow &window) {
+void Snake::Draw(sf::RenderWindow &window) {
     for (unsigned int i = 0; i < mSnakes.size(); i++)
         window.draw(mSnakes[i]);
 
