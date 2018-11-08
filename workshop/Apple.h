@@ -6,8 +6,9 @@
 #define WORKSHOP_APPLE_H
 
 #include <SFML/Graphics.hpp>
+#include "AbstractEntity.h"
 
-class Apple {
+class Apple : public AbstractEntity  {
 
 public:
     Apple() {
@@ -15,14 +16,14 @@ public:
         apple.setFillColor(sf::Color(255, 0, 0));
     };
 
-    void DrawApple(sf::RenderWindow &window);
+    virtual void Draw(sf::RenderWindow &window) override;
 
-    void SetPosition(int x, int y);
+    virtual void SetPosition(int x, int y) override;
 
-    int GeneratePosition();
+    virtual int GeneratePosition() override;
 
 
-    sf::Vector2f GetPosition();
+    virtual sf::Vector2f GetPosition() override;
 
     ~Apple();
 

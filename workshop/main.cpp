@@ -5,9 +5,7 @@
 #include <ctime>
 
 #include "AbstractEntity.h"
-#include "SnakeEntity.h"
 #include "EntityFactory.h"
-#include "Scene.h"
 #include "TimeManager.h"
 
 #include "Snake.h"
@@ -20,16 +18,8 @@ int main() {
     srand(time(0));
     // Variables
     sf::Event event;
-    Scene *scene;
     Game *game;
-    unsigned int fps = 0;
-    float snakeSpeed = 50;
-    bool collision = false;
     bool start = true;
-    int appleX;
-    int appleY;
-    bool appleDrawPossible = true;
-    bool isAppleNeeded = true;
     int nbParty = 0;
 
     sf::RenderWindow window(sf::VideoMode((50 * 15), (50 * 15)), "LittleBigSnake");
@@ -42,11 +32,10 @@ int main() {
     sf::Font font;
     font.loadFromFile("fonts/GROBOLD.ttf");
 
-    scene = new Scene();
     game = new Game();
 
     // Snake
-    Snake snake(window, 50, 15);
+    Snake snake(window);
     while (window.isOpen()) {
         while (start) {
             // Boucle d'evenement SFML
@@ -69,7 +58,7 @@ int main() {
                                         case 0:
                                             // BOUCLE DE JEU !!
                                             std::cout << "Play" << std::endl;
-                                            nbParty = game->loopGame(window, event, font, scene, snake,nbParty);
+                                            nbParty = game->loopGame(window, event, font, snake,nbParty);
                                             break;
                                         case 1 :
                                             std::cout << "Options" << std::endl;
@@ -105,7 +94,7 @@ int main() {
                                         case 0:
                                             // BOUCLE DE JEU !!
                                             std::cout << "Replay" << std::endl;
-                                            nbParty = game->loopGame(window, event, font, scene, snake, nbParty);
+                                            nbParty = game->loopGame(window, event, font, snake, nbParty);
                                             break;
                                         case 1:
                                             window.close();

@@ -3,15 +3,16 @@
 //
 
 #include "EntityFactory.h"
-#include "SnakeEntity.h"
+#include "Snake.h"
+#include "Apple.h"
 
 AbstractEntity *EntityFactory::Create(const std::string &str) {
 
     AbstractEntity *entity = nullptr;
 
-    if (str == "SnakeEntity")
+    if (str == "Apple")
     {
-        entity = new SnakeEntity();
+        entity = new Apple();
     }
     return entity;
 }

@@ -12,7 +12,7 @@
 #include <unistd.h>
 #include <ctime>
 
-void Apple::DrawApple(sf::RenderWindow &window) {
+void Apple::Draw(sf::RenderWindow &window) {
     window.draw(apple);
 }
 

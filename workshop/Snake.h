@@ -11,26 +11,22 @@
 #include <ctime>
 #include <SFML/Graphics.hpp>
 
-#include "Square.h"
+#include "AbstractEntity.h"
 
 class Square;
 
 class Snake {
 public:
-    Snake(sf::RenderWindow &window, int sSize, int sSpeed);
+    Snake(sf::RenderWindow &window);
 
-
-    void DrawSnake(sf::RenderWindow &window);
+    void Draw(sf::RenderWindow &window);
     void ChooseDirection(char direction);
-    void AddCase();
+    void Grow();
 
     void SetPosition(sf::RenderWindow &window);
 
     sf::Vector2f GetPosition();
     std::vector<sf::RectangleShape> mSnakes;
-
-//    bool CheckCollision(float snakeX, float snakeY, int snakeWidth, int snakeHeight,
-//            int appleX, int appleY, int appleWidth, int appleHeight);
 
     bool CollisionScreen(float snakeX, float snakeY, int snakeWidth, int snakeHeight, int appleX, int appleY, int appleWidth,
                    int appleHeight);
@@ -43,18 +39,7 @@ public:
 private:
     sf::RectangleShape snake;
 
-    sf::Clock mClock;
-    sf::CircleShape mFood;
-    int mTimeToUpdate;
-    int mSize;
     int mSpeed = 50;
-    bool mLeft, mRight, mUp, mDown;
-    float mCurrentTime;
-    char last_direction;
-
-
-
-    void CheckCollision(sf::RenderWindow &window);
 
 };
 
